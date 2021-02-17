@@ -1,0 +1,1426 @@
+[
+	{
+		"location": "Paris, ile-de-France, France",
+		"name": "Daft Punk"
+	},
+	{
+		"location": "Braintree, Essex, England, United Kingdom",
+		"name": "The Prodigy"
+	},
+	{
+		"location": "Basildon, Essex, England, United Kingdom",
+		"name": "Depeche Mode"
+	},
+	{
+		"location": "Bristol, England, United Kingdom",
+		"name": "Massive Attack"
+	},
+	{
+		"location": "Reykjavik, Hofuoborgarsvaeoio, Iceland",
+		"name": "Bjork"
+	},
+	{
+		"location": "Harlem, Manhattan, New York, New York, United States",
+		"name": "Moby"
+	},
+	{
+		"location": "Abingdon-on-Thames, Oxfordshire, England, United Kingdom",
+		"name": "Radiohead"
+	},
+	{
+		"location": "Manchester, Greater Manchester, England, United Kingdom",
+		"name": "The Chemical Brothers"
+	},
+	{
+		"location": "Essex, England, United Kingdom",
+		"name": "Gorillaz"
+	},
+	{
+		"location": "Tromso, Troms, Norway",
+		"name": "Royksopp"
+	},
+	{
+		"location": "Limerick, County Limerick, Munster, Ireland",
+		"name": "Aphex Twin"
+	},
+	{
+		"location": "Bristol, England, United Kingdom",
+		"name": "Portishead"
+	},
+	{
+		"location": "Middletown, Middlesex County, Connecticut, United States",
+		"name": "MGMT"
+	},
+	{
+		"location": "Toronto, Ontario, Canada",
+		"name": "Crystal Castles"
+	},
+	{
+		"location": "Edinburgh, Scotland, United Kingdom",
+		"name": "Boards of Canada"
+	},
+	{
+		"location": "Dusseldorf, Nordrhein-Westfalen, Germany",
+		"name": "Kraftwerk"
+	},
+	{
+		"location": "Bromley, London, England, United Kingdom",
+		"name": "Fatboy Slim"
+	},
+	{
+		"location": "Bath, Somerset, England, United Kingdom",
+		"name": "Goldfrapp"
+	},
+	{
+		"location": "Stockholm, Stockholm municipality, Stockholms lan, Sweden",
+		"name": "The Knife"
+	},
+	{
+		"location": "Cleveland, Cuyahoga County, Ohio, United States",
+		"name": "Nine Inch Nails"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Red Hot Chili Peppers"
+	},
+	{
+		"location": "Liverpool, Merseyside, England, United Kingdom",
+		"name": "The Beatles"
+	},
+	{
+		"location": "Miami, Miami-Dade County, Florida, United States",
+		"name": "Muse"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Coldplay"
+	},
+	{
+		"location": "Abingdon-on-Thames, Oxfordshire, England, United Kingdom",
+		"name": "Radiohead"
+	},
+	{
+		"location": "Seattle, King County, Washington, United States",
+		"name": "Foo Fighters"
+	},
+	{
+		"location": "Agoura Hills, Los Angeles County, California, United States",
+		"name": "Linkin Park"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Led Zeppelin"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Queen"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Pink Floyd"
+	},
+	{
+		"location": "Las Vegas, Clark County, Nevada, United States",
+		"name": "The Killers"
+	},
+	{
+		"location": "Detroit, Wayne County, Michigan, United States",
+		"name": "The White Stripes"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Rolling Stones"
+	},
+	{
+		"location": "Berkeley, Alameda County, California, United States",
+		"name": "Green Day"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Guns N' Roses"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "The Doors"
+	},
+	{
+		"location": "Glendale, Los Angeles County, California, United States",
+		"name": "System of a Down"
+	},
+	{
+		"location": "Sydney, New South Wales, Australia",
+		"name": "AC/DC"
+	},
+	{
+		"location": "St. Joseph, Buchanan County, Missouri, United States",
+		"name": "Eminem"
+	},
+	{
+		"location": "Atlanta, Fulton County, Georgia, United States",
+		"name": "Kanye West"
+	},
+	{
+		"location": "Essex, England, United Kingdom",
+		"name": "Gorillaz"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Beastie Boys"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Black Eyed Peas"
+	},
+	{
+		"location": "East Point, Fulton County, Georgia, United States",
+		"name": "OutKast"
+	},
+	{
+		"location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+		"name": "The Roots"
+	},
+	{
+		"location": "South Gate, Los Angeles County, California, United States",
+		"name": "Cypress Hill"
+	},
+	{
+		"location": "Brooklyn, New York, New York, United States",
+		"name": "Nas"
+	},
+	{
+		"location": "East Harlem, Manhattan, New York, New York, United States",
+		"name": "2Pac"
+	},
+	{
+		"location": "St. Albans, Queens, New York, New York, United States",
+		"name": "A Tribe Called Quest"
+	},
+	{
+		"location": "Long Beach, Los Angeles County, California, United States",
+		"name": "Snoop Dogg"
+	},
+	{
+		"location": "San Jose, Santa Clara County, California, United States",
+		"name": "DJ Shadow"
+	},
+	{
+		"location": "Compton, Los Angeles County, California, United States",
+		"name": "Dr. Dre"
+	},
+	{
+		"location": "Chicago, Cook County, Illinois, United States",
+		"name": "Common"
+	},
+	{
+		"location": "Brooklyn, New York, New York, United States",
+		"name": "Mos Def"
+	},
+	{
+		"location": "Saint Michael, Barbados",
+		"name": "Rihanna"
+	},
+	{
+		"location": "High Green, Sheffield, South Yorkshire, England, United Kingdom",
+		"name": "Arctic Monkeys"
+	},
+	{
+		"location": "Abingdon-on-Thames, Oxfordshire, England, United Kingdom",
+		"name": "Radiohead"
+	},
+	{
+		"location": "Las Vegas, Clark County, Nevada, United States",
+		"name": "The Killers"
+	},
+	{
+		"location": "Bellingham, Whatcom County, Washington, United States",
+		"name": "Death Cab for Cutie"
+	},
+	{
+		"location": "Glasgow, Scotland, United Kingdom",
+		"name": "Franz Ferdinand"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Coldplay"
+	},
+	{
+		"location": "Reading, England, United Kingdom",
+		"name": "Bloc Party"
+	},
+	{
+		"location": "Miami, Miami-Dade County, Florida, United States",
+		"name": "Muse"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "The Strokes"
+	},
+	{
+		"location": "Brighton, Brighton and Hove, England, United Kingdom",
+		"name": "The Kooks"
+	},
+	{
+		"location": "Albuquerque, Bernalillo County, New Mexico, United States",
+		"name": "The Shins"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Yeah Yeah Yeahs"
+	},
+	{
+		"location": "Detroit, Wayne County, Michigan, United States",
+		"name": "The White Stripes"
+	},
+	{
+		"location": "Issaquah, King County, Washington, United States",
+		"name": "Modest Mouse"
+	},
+	{
+		"location": "Nashville, Davidson County, Tennessee, United States",
+		"name": "Kings of Leon"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "The Postal Service"
+	},
+	{
+		"location": "Omaha, Douglas County, Nebraska, United States",
+		"name": "Bright Eyes"
+	},
+	{
+		"location": "Dundee, Scotland, United Kingdom",
+		"name": "Snow Patrol"
+	},
+	{
+		"location": "Middletown, Middlesex County, Connecticut, United States",
+		"name": "MGMT"
+	},
+	{
+		"location": "Alton, Madison County, Illinois, United States",
+		"name": "Miles Davis"
+	},
+	{
+		"location": "Hamlet, Richmond County, North Carolina, United States",
+		"name": "John Coltrane"
+	},
+	{
+		"location": "Bedford Stuyvesant, Brooklyn, New York, New York, United States",
+		"name": "Norah Jones"
+	},
+	{
+		"location": "Southgate, Enfield, London, England, United Kingdom",
+		"name": "Amy Winehouse"
+	},
+	{
+		"location": "Hoboken, Hudson County, New Jersey, United States",
+		"name": "Frank Sinatra"
+	},
+	{
+		"location": "New Orleans, Louisiana, United States",
+		"name": "Louis Armstrong"
+	},
+	{
+		"location": "Tryon, Polk County, North Carolina, United States",
+		"name": "Nina Simone"
+	},
+	{
+		"location": "Newport News, Virginia, United States",
+		"name": "Ella Fitzgerald"
+	},
+	{
+		"location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+		"name": "Billie Holiday"
+	},
+	{
+		"location": "Chicago, Cook County, Illinois, United States",
+		"name": "Herbie Hancock"
+	},
+	{
+		"location": "Rocky Mount, Edgecombe County, North Carolina, United States",
+		"name": "Thelonious Monk"
+	},
+	{
+		"location": "Albany, Dougherty County, Georgia, United States",
+		"name": "Ray Charles"
+	},
+	{
+		"location": "Nogales, Santa Cruz County, Arizona, United States",
+		"name": "Charles Mingus"
+	},
+	{
+		"location": "Nanaimo, Regional District of Nanaimo, British Columbia, Canada",
+		"name": "Diana Krall"
+	},
+	{
+		"location": "Washington, D.C., United States",
+		"name": "Duke Ellington"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Cinematic Orchestra"
+	},
+	{
+		"location": "Burnaby, Metro Vancouver, British Columbia, Canada",
+		"name": "Michael Bublé"
+	},
+	{
+		"location": "Rochford, Essex, England, United Kingdom",
+		"name": "Jamie Cullum"
+	},
+	{
+		"location": "Kutaisi, Imereti, Georgia",
+		"name": "Katie Melua"
+	},
+	{
+		"location": "Montgomery, Montgomery County, Alabama, United States",
+		"name": "Nat King Cole"
+	},
+	{
+		"location": "Kingston, Jamaica",
+		"name": "Bob Marley & The Wailers"
+	},
+	{
+		"location": "West Chester, Chester County, Pennsylvania, United States",
+		"name": "Matisyahu"
+	},
+	{
+		"location": "Paris, ile-de-France, France",
+		"name": "Manu Chao"
+	},
+	{
+		"location": "Osnabruck, Niedersachsen, Germany",
+		"name": "Gentleman"
+	},
+	{
+		"location": "Mission Viejo, California United States",
+		"name": "Peter Tosh"
+	},
+	{
+		"location": "Kingston, Jamaica",
+		"name": "Damian Marley"
+	},
+	{
+		"location": "Berlin, Germany",
+		"name": "Seeed"
+	},
+	{
+		"location": "Birmingham, West Midlands, England, United Kingdom",
+		"name": "UB40"
+	},
+	{
+		"location": "Washington, DC, United States",
+		"name": "Bad Brains"
+	},
+	{
+		"location": "Saint Anns Bay, Saint Ann, Jamaica",
+		"name": "Burning Spear"
+	},
+	{
+		"location": "Kingston, Jamaica",
+		"name": "Sean Paul"
+	},
+	{
+		"location": "Adelphi, Saint James, Jamaica",
+		"name": "Jimmy Cliff"
+	},
+	{
+		"location": "Waterhouse, Kingston, Jamaica",
+		"name": "Black Uhuru"
+	},
+	{
+		"location": "Kingston, Jamaica",
+		"name": "Ziggy Marley"
+	},
+	{
+		"location": "Kerpen, Nordrhein-Westfalen, Germany",
+		"name": "Patrice"
+	},
+	{
+		"location": "Kingston, Jamaica",
+		"name": "Sizzla"
+	},
+	{
+		"location": "Liverpool, Merseyside, England, United Kingdom",
+		"name": "The Beatles"
+	},
+	{
+		"location": "High Green, Sheffield, South Yorkshire, England, United Kingdom",
+		"name": "Arctic Monkeys"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Rolling Stones"
+	},
+	{
+		"location": "Brighton, Brighton and Hove, England, United Kingdom",
+		"name": "The Kooks"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Who"
+	},
+	{
+		"location": "Abingdon on Thames, Oxfordshire, England, United Kingdom",
+		"name": "Radiohead"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Coldplay"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Clash"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Blur"
+	},
+	{
+		"location": "Leicester, England, United Kingdom",
+		"name": "Kasabian"
+	},
+	{
+		"location": "Southgate, Enfield, London, England, United Kingdom",
+		"name": "Amy Winehouse"
+	},
+	{
+		"location": "Miami, Miami-Dade County, Florida, United States",
+		"name": "Muse"
+	},
+	{
+		"location": "Reading, England, United Kingdom",
+		"name": "Bloc Party"
+	},
+	{
+		"location": "Hammersmith, Hammersmith and Fulham, London, England, United Kingdom",
+		"name": "Lily Allen"
+	},
+	{
+		"location": "Battle, East Sussex, England, United Kingdom",
+		"name": "Keane"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Florence + the Machine"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Libertines"
+	},
+	{
+		"location": "Liverpool, Merseyside, England, United Kingdom",
+		"name": "John Lennon"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Pink Floyd"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Clash"
+	},
+	{
+		"location": "Berkeley, Alameda County, California, United States",
+		"name": "Green Day"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Ramones"
+	},
+	{
+		"location": "Huntington Beach, Orange County, California, United States",
+		"name": "The Offspring"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Sex Pistols"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Bad Religion"
+	},
+	{
+		"location": "Poway, San Diego County, California, United States",
+		"name": "blink-182"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "NOFX"
+	},
+	{
+		"location": "San Francisco, California, United States",
+		"name": "Dead Kennedys"
+	},
+	{
+		"location": "Chicago, Cook County, Illinois, United States",
+		"name": "Rise Against"
+	},
+	{
+		"location": "Lodi, Bergen County, New Jersey, United States",
+		"name": "Misfits"
+	},
+	{
+		"location": "Ajax, Regional Municipality of Durham, Ontario, Canada",
+		"name": "Sum 41"
+	},
+	{
+		"location": "Ontario, Canada",
+		"name": "Rancid"
+	},
+	{
+		"location": "Ontario, Canada",
+		"name": "Anti-Flag"
+	},
+	{
+		"location": "Ontario, Canada",
+		"name": "Dropkick Murphys"
+	},
+	{
+		"location": "Muskegon, Muskegon County, Michigan, United States",
+		"name": "Iggy Pop"
+	},
+	{
+		"location": "Newark, Essex County, New Jersey, United States",
+		"name": "My Chemical Romance"
+	},
+	{
+		"location": "Ontario, Canada",
+		"name": "Billy Talent"
+	},
+	{
+		"location": "Ontario, Canada",
+		"name": "Fall Out Boy"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Flogging Molly"
+	},
+	{
+		"location": "Basildon, Essex, England, United Kingdom",
+		"name": "Depeche Mode"
+	},
+	{
+		"location": "Crawley, West Sussex, England, United Kingdom",
+		"name": "The Cure"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Queen"
+	},
+	{
+		"location": "Manchester, Greater Manchester, England, United Kingdom",
+		"name": "The Smiths"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Guns N' Roses"
+	},
+	{
+		"location": "Gary, Lake County, Indiana, United States",
+		"name": "Michael Jackson"
+	},
+	{
+		"location": "Salford, Salford, Greater Manchester, England, United Kingdom",
+		"name": "Joy Division"
+	},
+	{
+		"location": "Brixton, Lambeth, London, England, United Kingdom",
+		"name": "David Bowie"
+	},
+	{
+		"location": "Salford, Salford, Greater Manchester, England, United Kingdom",
+		"name": "New Order"
+	},
+	{
+		"location": "Birmingham, West Midlands, England, United Kingdom",
+		"name": "Duran Duran"
+	},
+	{
+		"location": "Bay City, Bay County, Michigan, United States",
+		"name": "Madonna"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Police"
+	},
+	{
+		"location": "Boston, Suffolk County, Massachusetts, United States",
+		"name": "Aerosmith"
+	},
+	{
+		"location": "Sayreville, Middlesex County, New Jersey, United States",
+		"name": "Bon Jovi"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Blondie"
+	},
+	{
+		"location": "Deptford, Lewisham, London, England, United Kingdom",
+		"name": "Dire Straits"
+	},
+	{
+		"location": "Hanover, Niedersachsen, Germany",
+		"name": "Scorpions"
+	},
+	{
+		"location": "Bath, Somerset, England, United Kingdom",
+		"name": "Tears for Fears"
+	},
+	{
+		"location": "Chelsea, Kensington and Chelsea, London, England, United Kingdom",
+		"name": "Pet Shop Boys"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Eurythmics"
+	},
+	{
+		"location": "Paris, ile-de-France, France",
+		"name": "Daft Punk"
+	},
+	{
+		"location": "Manhattan, New York, New York, United States",
+		"name": "Lady Gaga"
+	},
+	{
+		"location": "Bay City, Bay County, Michigan, United States",
+		"name": "Madonna"
+	},
+	{
+		"location": "Braintree, Essex, England, United Kingdom",
+		"name": "The Prodigy"
+	},
+	{
+		"location": "Gary, Lake County, Indiana, United States",
+		"name": "Michael Jackson"
+	},
+	{
+		"location": "Manchester, Greater Manchester, England, United Kingdom",
+		"name": "The Chemical Brothers"
+	},
+	{
+		"location": "Saint Michael, Barbados",
+		"name": "Rihanna"
+	},
+	{
+		"location": "Paris, ile-de-France, France",
+		"name": "David Guetta"
+	},
+	{
+		"location": "Bromley, London, England, United Kingdom",
+		"name": "Fatboy Slim"
+	},
+	{
+		"location": "McComb, Pike County, Mississippi, United States",
+		"name": "Britney Spears"
+	},
+	{
+		"location": "Melbourne, Victoria, Australia",
+		"name": "Kylie Minogue"
+	},
+	{
+		"location": "Ealing, London, England, United Kingdom",
+		"name": "Jamiroquai"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Faithless"
+	},
+	{
+		"location": "Memphis, Shelby County, Tennessee, United States",
+		"name": "Justin Timberlake"
+	},
+	{
+		"location": "Brixton, Lambeth, London, England, United Kingdom",
+		"name": "Basement Jaxx"
+	},
+	{
+		"location": "Staten Island, New York, New York, United States",
+		"name": "Christina Aguilera"
+	},
+	{
+		"location": "Bonn, Nordrhein-Westfalen, Germany",
+		"name": "Cascada"
+	},
+	{
+		"location": "Bath, Somerset, England, United Kingdom",
+		"name": "Goldfrapp"
+	},
+	{
+		"location": "Hau ula, Honolulu County, Hawaii, United States",
+		"name": "Jack Johnson"
+	},
+	{
+		"location": "Celbridge, County Kildare, Leinster, Ireland",
+		"name": "Damien Rice"
+	},
+	{
+		"location": "Chapin, Lexington County, South Carolina, United States",
+		"name": "Iron & Wine"
+	},
+	{
+		"location": "Mechanicsville, Hanover County, Virginia, United States",
+		"name": "Jason Mraz"
+	},
+	{
+		"location": "Bridgeport, Fairfield County, Connecticut, United States",
+		"name": "John Mayer"
+	},
+	{
+		"location": "Bergen, Hordaland, Norway",
+		"name": "Kings of Convenience"
+	},
+	{
+		"location": "Omaha, Douglas County, Nebraska, United States",
+		"name": "Elliott Smith"
+	},
+	{
+		"location": "Gothenburg, Vastra Gotaland, Sweden",
+		"name": "José González"
+	},
+	{
+		"location": "Yangon, Myanmar",
+		"name": "Nick Drake"
+	},
+	{
+		"location": "St. Catharines, Regional Municipality of Niagara, Ontario, Canada",
+		"name": "City and Colour"
+	},
+	{
+		"location": "Kew Gardens Hills, Queens, New York, New York, United States",
+		"name": "Simon & Garfunkel"
+	},
+	{
+		"location": "Eau Claire, Eau Claire County, Wisconsin, United States",
+		"name": "Bon Iver"
+	},
+	{
+		"location": "Tidworth, Wiltshire, England, United Kingdom",
+		"name": "James Blunt"
+	},
+	{
+		"location": "Boca Raton, Palm Beach County, Florida, United States",
+		"name": "Dashboard Confessional"
+	},
+	{
+		"location": "Pomona, Los Angeles County, California, United States",
+		"name": "Ben Harper"
+	},
+	{
+		"location": "Bishopbriggs, East Dunbartonshire, Scotland, United Kingdom",
+		"name": "Amy Macdonald"
+	},
+	{
+		"location": "Ciudad de Mexico, Mexico",
+		"name": "Rodrigo y Gabriela"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Mumford & Sons"
+	},
+	{
+		"location": "Malibu, Los Angeles County, California, United States",
+		"name": "Colbie Caillat"
+	},
+	{
+		"location": "Marylebone, Westminster, London, England, United Kingdom",
+		"name": "Cat Stevens"
+	},
+	{
+		"location": "Saint Michael, Barbados",
+		"name": "Rihanna"
+	},
+	{
+		"location": "Manhattan, New York, New York, United States",
+		"name": "Alicia Keys"
+	},
+	{
+		"location": "Memphis, Shelby County, Tennessee, United States",
+		"name": "Justin Timberlake"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Black Eyed Peas"
+	},
+	{
+		"location": "Huntington, Suffolk County, New York, United States",
+		"name": "Mariah Carey"
+	},
+	{
+		"location": "Dallas, Dallas County, Texas, United States",
+		"name": "Usher"
+	},
+	{
+		"location": "Staten Island, New York, New York, United States",
+		"name": "Christina Aguilera"
+	},
+	{
+		"location": "Atlanta, Fulton County, Georgia, United States",
+		"name": "Kanye West"
+	},
+	{
+		"location": "Houston, Harris County, Texas, United States",
+		"name": "Destiny's Child"
+	},
+	{
+		"location": "Camden, Ouachita County, Arkansas, United States",
+		"name": "Ne-Yo"
+	},
+	{
+		"location": "Austin, Travis County, Texas, United States",
+		"name": "Ciara"
+	},
+	{
+		"location": "Brooklyn, New York, New York, United States",
+		"name": "Aaliyah"
+	},
+	{
+		"location": "The Bronx, New York, New York, United States",
+		"name": "Mary J. Blige"
+	},
+	{
+		"location": "The Bronx, New York, New York, United States",
+		"name": "Jennifer Lopez"
+	},
+	{
+		"location": "Norfolk, Virginia, United States",
+		"name": "Timbaland"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "The Pussycat Dolls"
+	},
+	{
+		"location": "Hacienda Heights, Los Angeles County, California, United States",
+		"name": "Fergie"
+	},
+	{
+		"location": "Springfield, Clark County, Ohio, United States",
+		"name": "John Legend"
+	},
+	{
+		"location": "Dallas, Dallas County, Texas, United States",
+		"name": "Erykah Badu"
+	},
+	{
+		"location": "Bridgeport, Fairfield County, Connecticut, United States",
+		"name": "Hatebreed"
+	},
+	{
+		"location": "Chicago, Cook County, Illinois, United States",
+		"name": "Rise Against"
+	},
+	{
+		"location": "Winnipeg, Winnipeg Capital Region, Manitoba, Canada",
+		"name": "Comeback Kid"
+	},
+	{
+		"location": "Bridgend, Bridgend, Wales, United Kingdom",
+		"name": "Bullet for My Valentine"
+	},
+	{
+		"location": "Detroit, Wayne County, Michigan, United States",
+		"name": "Walls of Jericho"
+	},
+	{
+		"location": "Queens, New York, New York, United States",
+		"name": "Sick of It All"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Agnostic Front"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Terror"
+	},
+	{
+		"location": "Hermosa Beach, Los Angeles County, California, United States",
+		"name": "Black Flag"
+	},
+	{
+		"location": "Washington, D.C., United States",
+		"name": "Minor Threat"
+	},
+	{
+		"location": "Morris Plains, Morris County, New Jersey, United States",
+		"name": "The Dillinger Escape Plan"
+	},
+	{
+		"location": "Ocala, Marion County, Florida, United States",
+		"name": "Underoath"
+	},
+	{
+		"location": "Umea, Umea Municipality, Vasterbotten, Sweden",
+		"name": "Refused"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Madball"
+	},
+	{
+		"location": "Huntington Beach, Orange County, California, United States",
+		"name": "Avenged Sevenfold"
+	},
+	{
+		"location": "San Diego, San Diego County, California, United States",
+		"name": "As I Lay Dying"
+	},
+	{
+		"location": "Yorba Linda, Orange County, California, United States",
+		"name": "Atreyu"
+	},
+	{
+		"location": "Sheffield, South Yorkshire, England, United Kingdom",
+		"name": "Bring Me the Horizon"
+	},
+	{
+		"location": "Douglasville, Douglas County, Georgia, United States",
+		"name": "Norma Jean"
+	},
+	{
+		"location": "Ocala, Marion County, Florida, United States",
+		"name": "A Day to Remember"
+	},
+	{
+		"location": "Reading, Berks County, Pennsylvania, United States",
+		"name": "Taylor Swift"
+	},
+	{
+		"location": "Abbott, Hill County, Texas, United States",
+		"name": "Willie Nelson"
+	},
+	{
+		"location": "Windsor, Essex County, Ontario, Canada",
+		"name": "Shania Twain"
+	},
+	{
+		"location": "Muskogee, Muskogee County, Oklahoma, United States",
+		"name": "Carrie Underwood"
+	},
+	{
+		"location": "Dallas, Dallas County, Texas, United States",
+		"name": "Dixie Chicks"
+	},
+	{
+		"location": "Mount Olive, Butler County, Alabama, United States",
+		"name": "Hank Williams"
+	},
+	{
+		"location": "Locust Ridge, Sevier County, Tennessee, United States",
+		"name": "Dolly Parton"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Eagles"
+	},
+	{
+		"location": "Columbus, Franklin County, Ohio, United States",
+		"name": "Rascal Flatts"
+	},
+	{
+		"location": "Glen Dale, Marshall County, West Virginia, United States",
+		"name": "Brad Paisley"
+	},
+	{
+		"location": "Delhi, Richland Parish, Louisiana, United States",
+		"name": "Tim McGraw"
+	},
+	{
+		"location": "Tulsa, Tulsa County, Oklahoma, United States",
+		"name": "Garth Brooks"
+	},
+	{
+		"location": "Jackson, Hinds County, Mississippi, United States",
+		"name": "Faith Hill"
+	},
+	{
+		"location": "Whangarei, Northland, North Island, New Zealand",
+		"name": "Keith Urban"
+	},
+	{
+		"location": "Newnan, Coweta County, Georgia, United States",
+		"name": "Alan Jackson"
+	},
+	{
+		"location": "Birmingham, Jefferson County, Alabama, United States",
+		"name": "Emmylou Harris"
+	},
+	{
+		"location": "Jackson, Hinds County, Mississippi, United States",
+		"name": "LeAnn Rimes"
+	},
+	{
+		"location": "Knoxville, Knox County, Tennessee, United States",
+		"name": "Kenny Chesney"
+	},
+	{
+		"location": "Winchester, Virginia, United States",
+		"name": "Patsy Cline"
+	},
+	{
+		"location": "Moore, Cleveland County, Oklahoma, United States",
+		"name": "Toby Keith"
+	},
+	{
+		"location": "Pomona, Los Angeles County, California, United States",
+		"name": "Tom Waits"
+	},
+	{
+		"location": "Ripley, Surrey, England, United Kingdom",
+		"name": "Eric Clapton"
+	},
+	{
+		"location": "Seattle, King County, Washington, United States",
+		"name": "Jimi Hendrix"
+	},
+	{
+		"location": "Berclair, Leflore County, Mississippi, United States",
+		"name": "B.B. King"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Rolling Stones"
+	},
+	{
+		"location": "Port Arthur, Jefferson County, Texas, United States",
+		"name": "Janis Joplin"
+	},
+	{
+		"location": "Coahoma County, Mississippi, United States",
+		"name": "John Lee Hooker"
+	},
+	{
+		"location": "Issaquena County, Mississippi, United States",
+		"name": "Muddy Waters"
+	},
+	{
+		"location": "Albany, Dougherty County, Georgia, United States",
+		"name": "Ray Charles"
+	},
+	{
+		"location": "Bedford Stuyvesant, Brooklyn, New York, New York, United States",
+		"name": "Norah Jones"
+	},
+	{
+		"location": "Akron, Summit County, Ohio, United States",
+		"name": "The Black Keys"
+	},
+	{
+		"location": "Tryon, Polk County, North Carolina, United States",
+		"name": "Nina Simone"
+	},
+	{
+		"location": "Dallas, Dallas County, Texas, United States",
+		"name": "Stevie Ray Vaughan"
+	},
+	{
+		"location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+		"name": "Billie Holiday"
+	},
+	{
+		"location": "New Orleans, Louisiana, United States",
+		"name": "Louis Armstrong"
+	},
+	{
+		"location": "White Station, Clay County, Mississippi, United States",
+		"name": "Howlin' Wolf"
+	},
+	{
+		"location": "Mission Viejo, CA, United States",
+		"name": "Robert Johnson"
+	},
+	{
+		"location": "Lettsworth, Pointe Coupee Parish, Louisiana, United States",
+		"name": "Buddy Guy"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "The Jimi Hendrix Experience"
+	},
+	{
+		"location": "Deptford, Lewisham, London, England, United Kingdom",
+		"name": "Dire Straits"
+	},
+	{
+		"location": "Abingdon on Thames, Oxfordshire, England, United Kingdom",
+		"name": "Radiohead"
+	},
+	{
+		"location": "London, England, United Kingdom",
+		"name": "Coldplay"
+	},
+	{
+		"location": "Miami, Miami-Dade County, Florida, United States",
+		"name": "Muse"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Red Hot Chili Peppers"
+	},
+	{
+		"location": "Essex, England, United Kingdom",
+		"name": "Gorillaz"
+	},
+	{
+		"location": "Agoura Hills, Los Angeles County, California, United States",
+		"name": "Linkin Park"
+	},
+	{
+		"location": "Reykjavik, Hofuoborgarsvaeoio, Iceland",
+		"name": "Bjork"
+	},
+	{
+		"location": "Las Vegas, Clark County, Nevada, United States",
+		"name": "The Killers"
+	},
+	{
+		"location": "Glendale, Los Angeles County, California, United States",
+		"name": "System of a Down"
+	},
+	{
+		"location": "Detroit, Wayne County, Michigan, United States",
+		"name": "The White Stripes"
+	},
+	{
+		"location": "Crawley, West Sussex, England, United Kingdom",
+		"name": "The Cure"
+	},
+	{
+		"location": "High Green, Sheffield, South Yorkshire, England, United Kingdom",
+		"name": "Arctic Monkeys"
+	},
+	{
+		"location": "Glasgow, Scotland, United Kingdom",
+		"name": "Franz Ferdinand"
+	},
+	{
+		"location": "Chicago, Cook County, Illinois, United States",
+		"name": "The Smashing Pumpkins"
+	},
+	{
+		"location": "Seattle, King County, Washington, United States",
+		"name": "Foo Fighters"
+	},
+	{
+		"location": "Berkeley, Alameda County, California, United States",
+		"name": "Green Day"
+	},
+	{
+		"location": "Boston, Suffolk County, Massachusetts, United States",
+		"name": "Pixies"
+	},
+	{
+		"location": "Salzburg, Salzburg, Austria",
+		"name": "Wolfgang Amadeus Mozart"
+	},
+	{
+		"location": "Bonn, Nordrhein-Westfalen, Germany",
+		"name": "Ludwig van Beethoven"
+	},
+	{
+		"location": "Eisenach, Thuringen, Germany",
+		"name": "Johann Sebastian Bach"
+	},
+	{
+		"location": "Venice, Venezia, Veneto, Italy",
+		"name": "Antonio Vivaldi"
+	},
+	{
+		"location": "Hamburg, Germany",
+		"name": "Johannes Brahms"
+	},
+	{
+		"location": "Alsergrund, Wien, Austria",
+		"name": "Franz Schubert"
+	},
+	{
+		"location": "Saint-Germain-en-Laye, Yvelines, ile-de-France, France",
+		"name": "Claude Debussy"
+	},
+	{
+		"location": "Brest, Finistere, Bretagne, France",
+		"name": "Yann Tiersen"
+	},
+	{
+		"location": "Nelahozeves, Melnik, Stredocesky kraj, Czech Republic",
+		"name": "Antonin Dvorak"
+	},
+	{
+		"location": "Bergen, Hordaland, Norway",
+		"name": "Edvard Grieg"
+	},
+	{
+		"location": "Frankfurt am Main, Hessen, Germany",
+		"name": "Hans Zimmer"
+	},
+	{
+		"location": "Leipzig, Sachsen, Germany",
+		"name": "Richard Wagner"
+	},
+	{
+		"location": "Honfleur, Calvados, Normandie, France",
+		"name": "Erik Satie"
+	},
+	{
+		"location": "Raiding, Burgenland, Austria",
+		"name": "Franz Liszt"
+	},
+	{
+		"location": "Baltimore, Maryland, United States",
+		"name": "Philip Glass"
+	},
+	{
+		"location": "Hamburg, Germany",
+		"name": "Felix Mendelssohn"
+	},
+	{
+		"location": "St. Joseph, Buchanan County, Missouri, United States",
+		"name": "Eminem"
+	},
+	{
+		"location": "Atlanta, Fulton County, Georgia, United States",
+		"name": "Kanye West"
+	},
+	{
+		"location": "New York, New York, United States",
+		"name": "Beastie Boys"
+	},
+	{
+		"location": "East Harlem, Manhattan, New York, New York, United States",
+		"name": "2Pac"
+	},
+	{
+		"location": "Long Beach, Los Angeles County, California, United States",
+		"name": "Snoop Dogg"
+	},
+	{
+		"location": "South Gate, Los Angeles County, California, United States",
+		"name": "Cypress Hill"
+	},
+	{
+		"location": "South Jamaica, Queens, New York, New York, United States",
+		"name": "50 Cent"
+	},
+	{
+		"location": "Compton, Los Angeles County, California, United States",
+		"name": "Dr. Dre"
+	},
+	{
+		"location": "Brooklyn, New York, New York, United States",
+		"name": "Nas"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Black Eyed Peas"
+	},
+	{
+		"location": "East Point, Fulton County, Georgia, United States",
+		"name": "OutKast"
+	},
+	{
+		"location": "Philadelphia, Philadelphia County, Pennsylvania, United States",
+		"name": "The Roots"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Fort Minor"
+	},
+	{
+		"location": "Crenshaw, Los Angeles, Los Angeles County, California, United States",
+		"name": "Ice Cube"
+	},
+	{
+		"location": "Champaign, Champaign County, Illinois, United States",
+		"name": "Ludacris"
+	},
+	{
+		"location": "Atlanta, Fulton County, Georgia, United States",
+		"name": "T.I."
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "The Game"
+	},
+	{
+		"location": "Reading, Berks County, Pennsylvania, United States",
+		"name": "Taylor Swift"
+	},
+	{
+		"location": "Abbott, Hill County, Texas, United States",
+		"name": "Willie Nelson"
+	},
+	{
+		"location": "Windsor, Essex County, Ontario, Canada",
+		"name": "Shania Twain"
+	},
+	{
+		"location": "Muskogee, Muskogee County, Oklahoma, United States",
+		"name": "Carrie Underwood"
+	},
+	{
+		"location": "Dallas, Dallas County, Texas, United States",
+		"name": "Dixie Chicks"
+	},
+	{
+		"location": "Mount Olive, Butler County, Alabama, United States",
+		"name": "Hank Williams"
+	},
+	{
+		"location": "Locust Ridge, Sevier County, Tennessee, United States",
+		"name": "Dolly Parton"
+	},
+	{
+		"location": "Los Angeles, Los Angeles County, California, United States",
+		"name": "Eagles"
+	},
+	{
+		"location": "Columbus, Franklin County, Ohio, United States",
+		"name": "Rascal Flatts"
+	},
+	{
+		"location": "Glen Dale, Marshall County, West Virginia, United States",
+		"name": "Brad Paisley"
+	},
+	{
+		"location": "Delhi, Richland Parish, Louisiana, United States",
+		"name": "Tim McGraw"
+	},
+	{
+		"location": "Tulsa, Tulsa County, Oklahoma, United States",
+		"name": "Garth Brooks"
+	},
+	{
+		"location": "Jackson, Hinds County, Mississippi, United States",
+		"name": "Faith Hill"
+	},
+	{
+		"location": "Whangarei, Northland, North Island, New Zealand",
+		"name": "Keith Urban"
+	},
+	{
+		"location": "Newnan, Coweta County, Georgia, United States",
+		"name": "Alan Jackson"
+	},
+	{
+		"location": "Birmingham, Jefferson County, Alabama, United States",
+		"name": "Emmylou Harris"
+	},
+	{
+		"location": "Jackson, Hinds County, Mississippi, United States",
+		"name": "LeAnn Rimes"
+	},
+	{
+		"location": "Knoxville, Knox County, Tennessee, United States",
+		"name": "Kenny Chesney"
+	},
+	{
+		"location": "Winchester, Virginia, United States",
+		"name": "Patsy Cline"
+	},
+	{
+		"location": "Moore, Cleveland County, Oklahoma, United States",
+		"name": "Toby Keith"
+	}
+]
