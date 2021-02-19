@@ -5,3 +5,12 @@ Lesley Worden
 Joshua Pribek
 
 Benjamin Shostak
+
+
+------------------
+
+instructions
+
+npm install 
+
+npm run seed
