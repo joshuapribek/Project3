@@ -5,8 +5,11 @@ const Schema = mongoose.Schema;
 const artistSchema = new Schema({
     name: {type:String, require: true },
     location: {type:String, require: true },
-    coordinate: String
-});
+    coords: {
+        lat: Number,
+        long:  Number
+      }
+    });
 
 
 
