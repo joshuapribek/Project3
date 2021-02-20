@@ -247,6 +247,7 @@
   .feature {
     background: var(--dark-color);
     padding: 5rem 0;
+    text-align: center;
   }
 
 
