@@ -1,4 +1,4 @@
-var locationdata = require('./artistloc.json')
+var locationdata = require('../artistloc.json')
 
 
 const axios = require('axios').default;

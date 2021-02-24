@@ -1,0 +1,24 @@
+<script>
+
+
+function getLocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(function(pos) {
+      //You have your locaton here
+      localStorage.setItem('lat', pos.coords.latitude);
+      localStorage.setItem('long', pos.coords.longitude);
+
+
+        console.log("Latitude: " + pos.coords.latitude +
+          "Longitude: " + pos.coords.longitude);
+      });
+    } else {
+      console.log("Geolocation is not supported by this browser.");
+    }
+  }
+  
+
+
+  
+  </script>
+      <button onclick="getLocation()">Get Location</button>

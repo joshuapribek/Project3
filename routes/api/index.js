@@ -1,7 +1,6 @@
 const router = require("express").Router();
-const postRoutes = require("./posts");
+const artistnear = require("./artistnear");
 
-// Post routes
-router.use("/posts", postRoutes);
+router.use("/artistnear", artistnear);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const fs = require('fs'); 
 
-var locationdata = require('./asdofasdoifj.json')
+var locationdata = require('../asdofasdoifj.json')
 
 for (i = 0; i < locationdata.length; i++) {
     console.log(locationdata[i].coords)
