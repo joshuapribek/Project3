@@ -1,15 +1,17 @@
 {
   "dependencies": {
-    "mongoose": "^5.11.17"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.17",
+    "morgan": "^1.10.0"
   },
   "name": "wanderlist",
   "description": "Project3\r Lesley Worden",
   "version": "1.0.0",
   "main": "server.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node ./scripts/seedDB.js"
+    "seed": "node ./scripts/seedDB.js",
+    "delete": "node ./scripts/deleteDB.js"
   },
   "repository": {
     "type": "git",
