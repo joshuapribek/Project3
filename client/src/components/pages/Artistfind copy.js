@@ -7,6 +7,7 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
 
+
 export default function Wanderlist() {
 
 
@@ -30,32 +31,36 @@ export default function Wanderlist() {
         <>
 
 
+
             <div> {
                 console.log("mydata", mydata)
             }
-                <Container fluid>
-                    <Row> {
-                        mydata.length ? mydata.map((data, index) => {
+
+
+                {
+                mydata.length ? mydata.map((data, index) => {
 
 
 
-                        return                             <Col>
-                        <Artistcard class="text-center"
-                                key={index}
-                                name={
-                                    data.name
-                                }
-                                locations={
-                                    data.location
-                            }></Artistcard>
 
-                          </Col>
+                  <Container fluid>
+  <Row>
+    <Col>
+    
+    
+    
+    </Col>
+  </Row>
+</Container>
 
-                        }) : null
-                    } </Row>
-                </Container>
-            </div>
+                    return <Artistcard key={index}
+                        name={
+                            data.name
+                    }></Artistcard>
 
+
+            }) : null
+            } </div>
 
         </>
     );

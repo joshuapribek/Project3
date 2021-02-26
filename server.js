@@ -12,7 +12,7 @@ const { Artist } = require("./models");
 // app.use(routes);
 
 
-const PORT = process.env.PORT || 3005;
+const PORT = process.env.PORT || 3006;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -38,11 +38,11 @@ app.get('/artistsnear/:lat/:lon', function(req, res) {
          distanceField: "dist.calculated",
          maxDistance: 2000000,
          includeLocs: "dist.location",
-         spherical: true
+         spherical: false
       }
   
     },
-    { $limit: 5 }
+    { $limit: 12 }
   
   ])
   .then(data =>  res.send(data))
@@ -66,6 +66,6 @@ app.get('/artistsnear/:lat/:lon', function(req, res) {
 
 
 
-app.listen(3005, () => {
-  console.log("App running on port 3005!");
+app.listen(3006, () => {
+  console.log("App running on port 3006!");
 });
