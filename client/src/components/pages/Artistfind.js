@@ -4,7 +4,15 @@ import Artistcard from '../artistcard/artistcard'
 import React, { useState } from 'react';
 
 
-export const Wanderlist = () => {
+
+
+
+export default function Wanderlist() {
+
+
+
+const [mydata, setmydata] = useState([]);
+
   useEffect(()=> {
     //ask user for geo permission
     navigator.geolocation.getCurrentPosition(function(position){
@@ -12,29 +20,39 @@ export const Wanderlist = () => {
       const lon = position.coords.longitude;
       console.log(lat,lon)
       axios.get(`/artistsnear/${lat}/${lon}`)
-      .then(data => console.log(data))
+      .then(data => {console.log("hello");
+      
+      setmydata(data.data) 
+      
+      })
 
     })
-  },)
+  },[])
   return (
+    <>
     <div>
-<Artistcard></Artistcard>
-
-<Artistcard></Artistcard>
-
-<Artistcard></Artistcard>
+ {console.log("mydata",mydata)}
 
 
-<Artistcard></Artistcard>
+{mydata.length ?       mydata.map((data,index) => {
 
 
-<Artistcard></Artistcard>
+
+return <Artistcard key={index} name={data.name}  >  </Artistcard> 
+
+
+
+}) :null   }
+
+
 
 
 
 
 
 </div>
+
+</>
   );
 }
 

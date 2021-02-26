@@ -2,7 +2,7 @@ import NavBar from "./components/navbar/navbar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
-import { Wanderlist } from "./components/pages/Artistfind";
+import Wanderlist from "./components/pages/Artistfind";
 
 
 
