@@ -14,7 +14,7 @@ function Artistcard(props) {
     <Card.Text>
                 {props.locations}
     </Card.Text>
-    <Button variant="primary">Go somewhere</Button>
+   <a href={props.spotifyurl}> <Button variant="primary">Listen Now</Button> </a>
   </Card.Body>
 </Card>
 

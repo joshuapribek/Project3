@@ -13,7 +13,8 @@ const artistSchema = new Schema({
 
          },
     location: {type:String, require: true },
-    legacy: [Number]
+    legacy: [Number],
+    spotifyurl: {type:String, require: true }
     });
 
     artistSchema.index( { legacy : '2dsphere' } );

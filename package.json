@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "axios": "^0.21.1",
+    "delay": "^5.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.11.17",
     "mongoose-unique-validator": "^2.0.3",

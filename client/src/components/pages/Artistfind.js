@@ -48,6 +48,9 @@ export default function Wanderlist() {
                                     locations={
                                         data.location
                                 }
+                                spotifyurl={
+                                    data.spotifyurl
+                            }
                                 
                                 ></Artistcard>
 
