@@ -2,16 +2,17 @@ const express = require("express");
 
 const mongoose = require("mongoose");
 
-const { Artist } = require("./models");
-
-// const routes = require("./routes");
-
-const PORT = process.env.PORT || 3000;
-
-
-
 const app = express();
 
+const { Artist } = require("./models");
+
+
+
+// const routes = require("./routes");
+// app.use(routes);
+
+
+const PORT = process.env.PORT || 3006;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -22,38 +23,28 @@ if (process.env.NODE_ENV === "production") {
 
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 
 
-app.get('/artists', function(req, res) {
+app.get('/artistsnear/:lat/:lon', function(req, res) {
+  const {lat, lon} = req.params
 
-Artist.aggregate([
-  {
-    $geoNear: {
-       near: { type: "Point", coordinates: [ -73.99279 , 40.719296 ] },
-       distanceField: "dist.calculated",
-       maxDistance: 2000000,
-       includeLocs: "dist.location",
-       spherical: true
-    }
-  }
-])
-.then(data =>  res.send(data))
- .catch(error=>  {
-  console.error(error);
-  } )
-
-
-
-
-
-});
-
-app.get('/', function(req, res) {
-
-
-  Artist.find()
+  Artist.aggregate([
+    {
+      $geoNear: {
+         near: { type: "Point", coordinates: [ Number(lon) , Number(lat) ] },
+                                           //  user lat // user long //
+         distanceField: "dist.calculated",
+         maxDistance: 2000000,
+         includeLocs: "dist.location",
+         spherical: true
+      }
+  
+    },
+    { $limit: 100 }
+  
+  ])
   .then(data =>  res.send(data))
    .catch(error=>  {
     console.error(error);
@@ -65,8 +56,16 @@ app.get('/', function(req, res) {
   
   });
 
+  // app.post('/artistsnear', function(req, res) {
 
 
-app.listen(3000, () => {
-  console.log("App running on port 3000!");
+  //   const latitude = req.params.latitude;
+  //   const longitude = req.params.longitude;
+
+
+
+
+
+app.listen(3006, () => {
+  console.log("App running on port 3006!");
 });
