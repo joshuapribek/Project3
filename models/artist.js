@@ -1,15 +1,28 @@
 const mongoose = require("mongoose");
 
+
 const Schema = mongoose.Schema;
 
 const artistSchema = new Schema({
     id: Number, 
-    name: {type:String, require: true },
+    picurl: {type:String, require: false},
+    name: { type: String,
+        required: true,
+         unique: true,
+
+
+         },
     location: {type:String, require: true },
     legacy: [Number]
     });
 
-    artistSchema.index( { legacy : '2dsphere' } )
+    artistSchema.index( { legacy : '2dsphere' } );
+    artistSchema.index( { name : 1 }, { unique: true } );
+
+
+
+
+
 
 
 

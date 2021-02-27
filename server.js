@@ -23,7 +23,7 @@ if (process.env.NODE_ENV === "production") {
 
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 
 
@@ -38,11 +38,11 @@ app.get('/artistsnear/:lat/:lon', function(req, res) {
          distanceField: "dist.calculated",
          maxDistance: 2000000,
          includeLocs: "dist.location",
-         spherical: false
+         spherical: true
       }
   
     },
-    { $limit: 12 }
+    { $limit: 10 }
   
   ])
   .then(data =>  res.send(data))

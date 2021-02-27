@@ -1,6 +1,6 @@
 const fs = require('fs'); 
 
-var locationdata = require('../asdofasdoifj.json')
+var locationdata = require('./asdofasdoifj.json')
 
 for (i = 0; i < locationdata.length; i++) {
     console.log(locationdata[i].coords)
@@ -8,12 +8,15 @@ for (i = 0; i < locationdata.length; i++) {
     var y = locationdata[i].coords.lng
     var artistname = locationdata[i].name
     var locationname = locationdata[i].location
+    var artistimage = locationdata[i].image
+
 
 
       
           fs.appendFileSync("artistloclatest.json", `
           
           {
+            "image" : "${artistimage}",
             "location": "${locationname}",
             "name": "${artistname}",
             "legacy": [${y},${x}]

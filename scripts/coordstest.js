@@ -1,4 +1,4 @@
-var locationdata = require('../artistloc.json')
+var locationdata = require('./jsoninput/newartistarray.json')
 
 
 const axios = require('axios').default;
@@ -41,9 +41,11 @@ console.log('Done!');
 
 // artistwlocationdata2.push({...x, coords:response.data.results[0].geometry.location})
 
-getMyLocations(0,100)
-setTimeout(() => getMyLocations(101, 200), 1000);
-setTimeout(() => getMyLocations(201, 300), 2000);
+getMyLocations(0,99)
+
+setTimeout(() => getMyLocations(271, 300), 8000);
+
+
 
 setTimeout(() => fs.appendFileSync('asdofasdoifj.json', JSON.stringify(artistwlocationdata2)), 6000);
 

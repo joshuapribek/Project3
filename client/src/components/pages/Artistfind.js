@@ -38,20 +38,22 @@ export default function Wanderlist() {
                         mydata.length ? mydata.map((data, index) => {
 
 
-
-                        return                             <Col>
-                        <Artistcard class="text-center"
-                                key={index}
-                                name={
-                                    data.name
+                            return <Col>
+                                <Artistcard class="text-center"
+                                    key={index}
+                                    url={data.image}
+                                    name={
+                                        data.name
+                                    }
+                                    locations={
+                                        data.location
                                 }
-                                locations={
-                                    data.location
-                            }></Artistcard>
+                                
+                                ></Artistcard>
 
-                          </Col>
+                            </Col>
 
-                        }) : null
+                    }) : null
                     } </Row>
                 </Container>
             </div>
