@@ -42,7 +42,7 @@ app.get('/artistsnear/:lat/:lon', function(req, res) {
       }
   
     },
-    { $limit: 10 }
+    { $limit: 100 }
   
   ])
   .then(data =>  res.send(data))
