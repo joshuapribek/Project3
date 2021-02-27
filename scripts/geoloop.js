@@ -9,6 +9,10 @@ for (i = 0; i < locationdata.length; i++) {
     var artistname = locationdata[i].name
     var locationname = locationdata[i].location
     var artistimage = locationdata[i].image
+    var spotifyurl = locationdata[i].image
+    var bio = locationdata[i].bio
+
+
 
 
 
@@ -19,7 +23,9 @@ for (i = 0; i < locationdata.length; i++) {
             "image" : "${artistimage}",
             "location": "${locationname}",
             "name": "${artistname}",
-            "legacy": [${y},${x}]
+            "legacy": [${y},${x}],
+            "spotifyurl": "${spotifyurl}",
+            "bio": "${bio}
         },
   
           `);
