@@ -8,14 +8,14 @@ function navbar() {
 return (
 
 
-<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">WanderList</Navbar.Brand>
+<Navbar collapseOnSelect className="gradient border fixed-top" expand="lg"  >
+  <Navbar.Brand className="text-black" href="#home">WanderList</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="/">Home</Nav.Link>
-      <Nav.Link href="/Artistfind">Artistfind</Nav.Link>
-      <Nav.Link href="/About">About</Nav.Link>
+      <Nav.Link className="text-black" href="/">Home</Nav.Link>
+      <Nav.Link className="text-black" href="/Artistfind">Artistfind</Nav.Link>
+      <Nav.Link className="text-black" href="/About">About</Nav.Link>
 
   
     </Nav>
