@@ -1,11 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './App.css';
+
 import App from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Preloader from './components/preloader/preloader'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
+<Preloader></Preloader>
     <App />
   </React.StrictMode>,
   document.getElementById('root')

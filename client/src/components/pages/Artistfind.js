@@ -5,6 +5,8 @@ import React, {useState} from 'react';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import holy from '../../assets/preload.gif'
+
 
 
 export default function Wanderlist() {
@@ -33,6 +35,10 @@ export default function Wanderlist() {
             <div> {
                 console.log("mydata", mydata)
             }
+            <br></br><br></br><br></br><br></br>
+            
+
+            
                 <Container fluid>
                     <Row> {
                         mydata.length ? mydata.map((data, index) => {
