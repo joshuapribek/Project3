@@ -19,7 +19,7 @@ export default function Wanderlist() {
             const lat = position.coords.latitude;
             const lon = position.coords.longitude;
             console.log(lat, lon)
-            axios.get(`/artistsnear/${lat}/${lon}`).then(data => {
+            axios.get(`api/artistfind/${lat}/${lon}`).then(data => {
                 console.log("hello");
 
                 setmydata(data.data)

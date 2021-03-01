@@ -8,8 +8,10 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
     "bootstrap": "^4.6.0",
     "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7",
     "react": "^17.0.1",
     "react-bootstrap": "^1.5.0",
     "react-dom": "^17.0.1",
@@ -19,7 +21,7 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts start\" \"node ../server.js\"",
+    "start": "concurrently \"react-scripts start\" \"nodemon ../server.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
