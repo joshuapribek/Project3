@@ -36,13 +36,13 @@ app.get('/artistsnear/:lat/:lon', function(req, res) {
          near: { type: "Point", coordinates: [ Number(lon) , Number(lat) ] },
                                            //  user lat // user long //
          distanceField: "dist.calculated",
-         maxDistance: 2000000,
+         maxDistance: 200000,
          includeLocs: "dist.location",
          spherical: true
       }
   
     },
-    { $limit: 100 }
+    { $limit: 20 }
   
   ])
   .then(data =>  res.send(data))
