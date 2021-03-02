@@ -16,8 +16,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seed": "node ./scripts/seedDB.js",
-    "delete": "node ./scripts/deleteDB.js"
+    "seed": "node ./scripts/seedDB.js ",
+    "delete": "node ./scripts/deleteDB.js",
+    "start": "cd client && npm run start"
   },
   "repository": {
     "type": "git",
