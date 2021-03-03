@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 const Userschema = new Schema({
-    id: Number,
     name: {
         type: String,
         required: true,
@@ -14,7 +13,11 @@ const Userschema = new Schema({
         type: String,
         required: true,
         unique: true
-    }
+    },
+    password: {
+        type: String,
+        required: true
+    },
 
     instrument: {
         type: String
@@ -31,6 +34,6 @@ Userschema.index({
 }, {unique: true});
 
 
-const User = mongoose.model("Artist", Userschema);
+const User = mongoose.model("user", Userschema);
 
 module.exports = User;

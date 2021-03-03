@@ -12953,17 +12953,23 @@ const artistSeed = [
 ;  //maybe use fs (file system) to import(read) the list of artist name value pairs
 
 //you need to replace seed if already created
-
 function seedinit(){
 
-Artist.collection.insertMany(artistSeed, {ordered: false,}).then(data => {console.log(data.result.n+" records inserted")
+
+  const artistseedfilter = artistSeed.reduce((arr, item)=> {
+    if(!arr.some(a=> a.name === item.name)){
+      arr.push(item)
+    }
+    return arr
+  }, [])
+
+Artist.collection.insertMany(artistseedfilter, {ordered: false,}).then(data => {console.log(data.result.n+" records inserted")
 process.exit(0);}).catch(err => {console.log(err);
 process.exit(1)});
 
 }
 
 seedinit()
-
 // function dupremove(){
 
 //   Artist.collection.updateMany

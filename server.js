@@ -1,15 +1,13 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const bodyParser = require('body-parser');
 
 const app = express();
 
 const PORT = process.env.PORT || 3006;
 
-app.use(bodyParser.json())
+app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 
-const artistfind = require('./routes/api/artistfind');
 
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
@@ -21,6 +19,10 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useN
 
 
   app.use('/api/artistfind/', require('./routes/api/artistfind'))
+  app.use('/api/users/', require('./routes/api/users'))
+  app.use('/api/auth/', require('./routes/api/auth'))
+
+
 
 
 

@@ -9,6 +9,7 @@ const styles = {
     justifyContent: "flex-end",
      width: '18rem', 
      margin: 20
+     
   }
 };
 function Artistcard(props) {
