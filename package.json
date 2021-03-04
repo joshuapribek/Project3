@@ -10,7 +10,6 @@
     "mongoose": "^5.11.17",
     "mongoose-unique-validator": "^2.0.3",
     "morgan": "^1.10.0",
-    "nightmare": "^3.0.2",
     "react": "^17.0.1",
     "reactstrap": "^8.9.0",
     "replace-in-file": "^6.2.0"
@@ -23,7 +22,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./scripts/seedDB.js ",
     "delete": "node ./scripts/deleteDB.js",
-    "start": "cd client && npm run start"
+    "start": "npm i && npm run seeds && cd client && npm run start"
   },
   "repository": {
     "type": "git",
