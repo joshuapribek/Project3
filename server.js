@@ -29,4 +29,4 @@ app.use('/api/users/', require('./routes/api/users'))
 app.use('/api/auth/', require('./routes/api/auth'))
 
 
-app.listen(process.env.PORT || 5000)
+app.listen(process.env.PORT || 3006)
