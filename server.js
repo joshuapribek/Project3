@@ -6,7 +6,7 @@ const config = require('config');
 
 const app = express();
 
-const PORT = process.env.PORT || 3006;
+const PORT = process.env.PORT || 3006
 
 
 app.use(express.json())
@@ -29,4 +29,5 @@ app.use('/api/users/', require('./routes/api/users'))
 app.use('/api/auth/', require('./routes/api/auth'))
 
 
-app.listen(process.env.PORT || 3006)
+app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
