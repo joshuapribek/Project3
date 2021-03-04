@@ -16,13 +16,17 @@
   },
   "name": "wanderlist",
   "description": "Project3\r Lesley Worden",
+  "engines": {
+    "node": "15.5.1",
+    "npm": "7.3.0"
+  },
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./scripts/seedDB.js ",
     "delete": "node ./scripts/deleteDB.js",
-    "start": "set NODE_OPTIONS=--max_old_space_size=300 npm i && npm run seed && cd client && npm i && npm run start",
+    "start": "npm i && npm run seed && cd client && npm i && npm run start",
     "react": "cd client && npm i"
   },
   "repository": {
