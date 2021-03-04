@@ -6,7 +6,6 @@ const config = require('config');
 
 const app = express();
 
-const PORT = process.env.PORT || 3006;
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}));
@@ -16,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
