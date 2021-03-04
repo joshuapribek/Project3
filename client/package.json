@@ -28,8 +28,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "concurrently \"react-scripts --max_old_space_size=4096 start\" \"node ../server.js\"",
-    "build": "react-scripts --max_old_space_size=4096 build",
+    "start": "concurrently \"react-scripts start\" \"node ../server.js\"",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
