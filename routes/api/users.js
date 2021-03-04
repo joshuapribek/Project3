@@ -7,11 +7,11 @@ const jwt = require('jsonwebtoken');
 const User = require('../../models/user');
 
 router.post('/', (req, res) => {
-const { name, email, password, instrument } = req.body;
+const { username, email, password } = req.body;
 
 // val
 
-if(!name || !email || !password || !instrument) {
+if(!username || !email || !password ) {
 
 return res.status(400).json({ msg: 'Please enter all fields'})
 
@@ -22,10 +22,10 @@ User.findOne({ email })
     if(user) return res.status(400).json({ msg: 'User already exists'});
 
     const newUser = new User({
-        name,
+        username,
         email,
         password,
-        instrument
+        
     });
 
     bcrypt.genSalt(10, (err, salt) => {
@@ -45,7 +45,7 @@ User.findOne({ email })
                                 token,
                                 user: {
                                     id: user.id,
-                                    name: user.name,
+                                    username: user.username,
                                     email: user.email,
                                     instrument: user.instrument
                                 }

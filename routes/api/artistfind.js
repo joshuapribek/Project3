@@ -16,10 +16,8 @@ router.get('/:lat/:lon', function(req, res) {
          includeLocs: "dist.location",
          spherical: true
       }
-  
     },
     { $limit: 20 }
-  
   ])
   .then(data =>  res.send(data))
    .catch(error=>  {
@@ -27,11 +25,4 @@ router.get('/:lat/:lon', function(req, res) {
     } )
 
   }); 
-
- 
-
-
-
-
-
   module.exports = router

@@ -6,7 +6,7 @@ const Schema = mongoose.Schema;
 const artistSchema = new Schema({
     id: Number, 
     picurl: {type:String, require: false},
-    name: { type: String,
+    artistname: { type: String,
         required: true,
          unique: true,
 

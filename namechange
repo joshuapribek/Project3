@@ -1,23 +1,4 @@
-const mongoose = require("mongoose");
-const fs = require('fs');
 
-const Artist = require("../models/artist");
-
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
-  
-// const artistseed2 = 
-
-// fs.readFile('./artistLocation/artistloc.json',
-//     // callback function that is called when reading file is done
-//     function(err, data) {       
-//         if (err) throw err;
-//         // data is a buffer containing file content
-//         console.log(data.toString('utf8'))
-// });
-
-// console.log(artistseed2)
-
-const artistSeed = 
 [   
      {
        "image" : "https://lastfm.freetls.fastly.net/i/u/ar0/9fd718d4c80e4ac89107c6c0bb908440.webp",
@@ -30548,30 +30529,3 @@ const artistSeed =
    }
 
  ]
-
-  
-;  //maybe use fs (file system) to import(read) the list of artist name value pairs
-
-//you need to replace seed if already created
-function seedinit(){
-
-
-  const artistseedfilter = artistSeed.reduce((arr, item)=> {
-    if(!arr.some(a=> a.artistname === item.artistname)){
-      arr.push(item)
-    }
-    return arr
-  }, [])
-
-Artist.collection.insertMany(artistseedfilter, {ordered: false,}).then(data => {console.log(data.result.n+" records inserted")
-process.exit(0);}).catch(err => {console.log(err);
-process.exit(1)});
-
-}
-
-seedinit()
-// function dupremove(){
-
-//   Artist.collection.updateMany
-
-// }

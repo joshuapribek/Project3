@@ -20,7 +20,7 @@ function Artistcard(props) {
   
   <Card.Img variant="top" width="200px" height="300px"  src={props.url} />
   <Card.Body className="white">
-    <Card.Title >{props.name}</Card.Title>
+    <Card.Title >{props.artistname}</Card.Title>
     <Card.Text>
                 {props.locations}
     </Card.Text>

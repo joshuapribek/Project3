@@ -1,23 +1,23 @@
 import React, { Component } from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
+import axios from 'axios'
 
 class Loginform extends Component {
     constructor(){
         super()
         this.state = {
-            name:'',
+            username:'',
             email:'',
             password:'',
-            instrument:'',
-            location:'',
+
 
 
         }
         this.changeName = this.changeName.bind(this)
         this.changeEmail = this.changeEmail.bind(this)
         this.changePassword = this.changePassword.bind(this)
-        this.changeInstrument = this.changeInstrument.bind(this)
-        this.changeLocation = this.changeLocation.bind(this)
+
+
 
     }
 
@@ -26,7 +26,7 @@ class Loginform extends Component {
 
     changeName(event){
         this.setState({
-            name:event.target.value
+            username:event.target.value
         })
     }
     changeEmail(event){
@@ -39,30 +39,43 @@ class Loginform extends Component {
             password:event.target.value
         })
     }
-    changeInstrument(event){
-        this.setState({
-            instrument:event.target.value
-        })
-    }
-    changeLocation(event){
-        this.setState({
-            location:event.target.value
-        })
-    }
+
 
 onSubmit(event){
 event.preventDefault()
+
+const registered = {
+    username: this.state.username,
+    email:this.state.email,
+    password:this.state.password,
+}
+
+axios.post('http://localhost:3006/api/signup', registered)
+.then(response => console.log(response.data))
+
+    // window.location = '/artistfind'
+
+    this.setState({
+             name:'',
+            email:'',
+            password:'',
+    })
+
 }
     render(){
         return(
-<div>
+<div className='mt-3'>
+    <br></br>    <br></br>
+    <br></br>
+    <br></br>
+
     <div className='container mt-3'>
         <div className='form-div'>
             <form onSubmit={this.onSubmit}>
                 <input type = 'text'
-                placeholder='name'
+                placeholder='Username'
                 onChange={this.changeName}
-                value={this.state.name}
+                value={this.state.username}
                 className='form-control form-group'
                 />
 
@@ -80,19 +93,6 @@ event.preventDefault()
                 className='form-control form-group'
                 />
 
-                <input type = 'text'
-                placeholder='Instrument'
-                onChange={this.changeInstrument}
-                value={this.state.instrument}
-                className='form-control form-group'
-                />
-
-                <input type = 'text'
-                placeholder='Location'
-                onChange={this.changeLocation}
-                value={this.state.location}
-                className='form-control form-group'
-                />
 
                 <input type = 'submit' className='btn btn-danger btn-block' value='submit'
                 />
