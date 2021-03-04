@@ -48,8 +48,8 @@ export default function Wanderlist() {
                                 <Artistcard class="text-center"
                                     key={index}
                                     url={data.image}
-                                    name={
-                                        data.name
+                                    artistname={
+                                        data.artistname
                                     }
                                     locations={
                                         data.location

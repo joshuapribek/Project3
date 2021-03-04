@@ -14,7 +14,7 @@ var client_secret = 'fd438460cd144613a3a9120e90ae74c3';
 
 
 
-async function spotifybutton(artist,imgurl,location){
+async function spotifybutton(imgurl, location, artist){
 
 
 
@@ -77,8 +77,8 @@ async function spotifybutton(artist,imgurl,location){
             fs.appendFileSync("newdatapregeo.json", `
           
             {
-              "image" : "${imgurl}",
-              "location": "${location}",
+              "image" : "${location}",
+              "location": "${imgurl}",
               "name": "${artist}",
               "spotifyurl": "${final}"
           },
@@ -119,11 +119,14 @@ async function spotifybutton(artist,imgurl,location){
     locationdata.forEach((locationdata,i) => {
         
         setTimeout(() => {
-            var artist = locationdata.name;
             var imgurl = locationdata.image;
-            var location = locationdata.location;
 
-         spotifybutton(artist,location,imgurl) 
+            var location = locationdata.location;
+            
+            var artist = locationdata.name;
+
+
+         spotifybutton(imgurl, location, artist) 
 
         
 

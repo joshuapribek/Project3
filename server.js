@@ -1,71 +1,33 @@
 const express = require("express");
-
 const mongoose = require("mongoose");
+
+const config = require('config');
+
 
 const app = express();
 
-const { Artist } = require("./models");
-
-
-
-// const routes = require("./routes");
-// app.use(routes);
-
-
 const PORT = process.env.PORT || 3006;
 
-app.use(express.urlencoded({ extended: true }));
-app.use(express.json());
+app.use(express.json())
+app.use(express.urlencoded({extended: true}));
+
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+    app.use(express.static("client/build"));
 }
 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true
+}).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
 
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
-
-
-
-app.get('/artistsnear/:lat/:lon', function(req, res) {
-  const {lat, lon} = req.params
-
-  Artist.aggregate([
-    {
-      $geoNear: {
-         near: { type: "Point", coordinates: [ Number(lon) , Number(lat) ] },
-                                           //  user lat // user long //
-         distanceField: "dist.calculated",
-         maxDistance: 200000,
-         includeLocs: "dist.location",
-         spherical: true
-      }
-  
-    },
-    { $limit: 20 }
-  
-  ])
-  .then(data =>  res.send(data))
-   .catch(error=>  {
-    console.error(error);
-    } )
-  
-  
-  
-  
-  
-  });
-
-  // app.post('/artistsnear', function(req, res) {
-
-
-  //   const latitude = req.params.latitude;
-  //   const longitude = req.params.longitude;
-
-
-
+app.use('/api/artistfind/', require('./routes/api/artistfind'))
+app.use('/api/users/', require('./routes/api/users'))
+app.use('/api/auth/', require('./routes/api/auth'))
 
 
 app.listen(3006, () => {
-  console.log("App running on port 3006!");
+    console.log("App running on port 3006!");
 });
