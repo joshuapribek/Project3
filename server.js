@@ -20,7 +20,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useN
 
   app.use('/api/artistfind/', require('./routes/api/artistfind'))
   app.use('/api/users/', require('./routes/api/users'))
-  app.use('/api/auth/', require('./routes/api/middleware/auth'))
+  app.use('/api/auth/', require('./routes/api/auth'))
 
 
 

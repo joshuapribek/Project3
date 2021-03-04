@@ -1,9 +1,10 @@
 const express = require('express')
 const router = express.Router();
+const auth = require('../../middleware/auth')
 
 const Artist = require('../../models/artist');
 
-router.get('/:lat/:lon', function(req, res) {
+router.get('/:lat/:lon',  (req, res) => {
   const {lat, lon} = req.params
 
   Artist.aggregate([
@@ -23,6 +24,5 @@ router.get('/:lat/:lon', function(req, res) {
    .catch(error=>  {
     console.error(error);
     } )
-
   }); 
   module.exports = router

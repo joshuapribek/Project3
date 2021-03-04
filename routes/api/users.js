@@ -47,9 +47,8 @@ User.findOne({ email })
                                     id: user.id,
                                     username: user.username,
                                     email: user.email,
-                                    instrument: user.instrument
                                 }
-                            })
+                            });
                         });
                         }
                     )
