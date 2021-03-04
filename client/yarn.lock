@@ -4054,9 +4054,9 @@
     "whatwg-url" "^8.0.0"
 
 "date-fns@^2.16.1":
-  "integrity" "sha512-ZEhqxUtEZeGgg9eHNSOAJ8O9xqSgiJdrL0lzSSfMF54x6KXWJiOH/xntSJ9YomJPrYH/p08t6gWjGWq1SDJlSA=="
-  "resolved" "https://registry.npmjs.org/date-fns/-/date-fns-2.17.0.tgz"
-  "version" "2.17.0"
+  "integrity" "sha512-NYyAg4wRmGVU4miKq5ivRACOODdZRY3q5WLmOJSq8djyzftYphU7dTHLcEtLqEvfqMKQ0jVv91P4BAwIjsXIcw=="
+  "resolved" "https://registry.npmjs.org/date-fns/-/date-fns-2.18.0.tgz"
+  "version" "2.18.0"
 
 "debug@^2.2.0", "debug@^2.3.3", "debug@^2.6.0", "debug@^2.6.9", "debug@2.6.9":
   "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
@@ -10306,9 +10306,9 @@
     "aproba" "^1.1.1"
 
 "rxjs@^6.6.3":
-  "integrity" "sha512-trsQc+xYYXZ3urjOiJOuCOa5N3jAZ3eiSpQB5hIT8zGlL2QfnHLJ2r7GMkBGuIausdJN1OneaI6gQlsqNHHmZQ=="
-  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.3.tgz"
-  "version" "6.6.3"
+  "integrity" "sha512-/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg=="
+  "resolved" "https://registry.npmjs.org/rxjs/-/rxjs-6.6.6.tgz"
+  "version" "6.6.6"
   dependencies:
     "tslib" "^1.9.0"
 
