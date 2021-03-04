@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./scripts/seedDB.js ",
     "build": "cd client && npm i",
-    "build2": "npm run build",
+    "build2": "cd client && npm run build",
     "delete": "node ./scripts/deleteDB.js",
     "start": "npm install && cd client && npm install ",
     "final": "cd client && npm run start",
