@@ -6,6 +6,8 @@ const config = require('config');
 
 const app = express();
 
+const PORT = 3006
+
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}));
