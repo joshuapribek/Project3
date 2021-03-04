@@ -15,7 +15,7 @@ if (process.env.NODE_ENV === "production") {
     app.use(express.static("client/build"));
 }
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", {
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", {
     useNewUrlParser: true,
     useCreateIndex: true,
     useUnifiedTopology: true
