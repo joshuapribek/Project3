@@ -1,5 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
+const path = require("path");
 
 const config = require('config');
 
@@ -13,9 +14,10 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}));
 
 
-if (process.env.NODE_ENV === "production") {
-    app.use(express.static("client/build"));
-}
+    app.use(express.static("./client/build"));
+
+
+
 
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", {
     useNewUrlParser: true,
@@ -28,6 +30,9 @@ app.use('/api/artistfind/', require('./routes/api/artistfind'))
 app.use('/api/users/', require('./routes/api/users'))
 app.use('/api/auth/', require('./routes/api/auth'))
 
+app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"));
+  });
 
 app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 

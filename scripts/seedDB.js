@@ -3,7 +3,7 @@ const fs = require('fs');
 
 const Artist = require("../models/artist");
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/artist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
   
 // const artistseed2 = 
 
