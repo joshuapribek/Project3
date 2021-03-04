@@ -23,7 +23,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./scripts/seedDB.js ",
     "delete": "node ./scripts/deleteDB.js",
-    "start": "npm i && cd client && npm i && npm run seed && npm run start"
+    "start": "cd client && npm run start"
   },
   "repository": {
     "type": "git",
