@@ -17,6 +17,7 @@ function Artistcard(props) {
     return(
       <div className="fade-in">
 <Card className="shadow-lg p-3 mb-5 bg-white rounded grow" style={styles.cardstyle}>
+  
   <Card.Img variant="top" width="200px" height="300px"  src={props.url} />
   <Card.Body className="white">
     <Card.Title >{props.name}</Card.Title>

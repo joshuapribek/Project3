@@ -16,6 +16,8 @@ return (
       <Nav.Link className="text-black" href="/">Home</Nav.Link>
       <Nav.Link className="text-black" href="/Artistfind">Artistfind</Nav.Link>
       <Nav.Link className="text-black" href="/About">About</Nav.Link>
+      <Nav.Link className="text-black" href="/Login">Login</Nav.Link>
+
 
   
     </Nav>

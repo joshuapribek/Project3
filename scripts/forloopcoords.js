@@ -6,7 +6,7 @@ var fs = require('fs');
 // const badChar = [{bad:'ü', good:'u'}, {bad:'Î', good:'i'}];
 
 
- function getMyLocations(location,imgurl,artist,spotify){
+ function getMyLocations(imgurl,location,artist,spotify){
 
    
 
@@ -28,8 +28,8 @@ var fs = require('fs');
               "image" : "${imgurl}",
               "location": "${location}",
               "name": "${artist}",
+              "spotifyurl": "${spotify}",
               "legacy": [${y},${x}],
-              "spotifyurl": "${spotify}"
           },
     
             `);
@@ -44,8 +44,8 @@ var fs = require('fs');
               "image" : "${imgurl}",
               "location": "${location}",
               "name": "${artist}",
-              "legacy": [${'1'},${'1'}],
-              "spotifyurl": "${spotify}"
+              "spotifyurl": "${spotify}",
+              "legacy": [${'1'},${'1'}]
           },
     
             `
@@ -65,9 +65,9 @@ locationdata.forEach((locationdata,i) => {
         var location = locationdata.location;
         var spotify = locationdata.spotifyurl;
 
-        console.log(location)
+        console.log(spotify)
 
-        getMyLocations(location,imgurl,spotify,artist) 
+        getMyLocations(imgurl,location,artist,spotify) 
 
     
 

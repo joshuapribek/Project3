@@ -29,9 +29,7 @@ const Userschema = new Schema({
 
 });
 
-Userschema.index({
-    name: 1
-}, {unique: true});
+
 
 
 const User = mongoose.model("user", Userschema);
