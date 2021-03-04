@@ -27,7 +27,7 @@
     "seed": "node ./scripts/seedDB.js ",
     "delete": "node ./scripts/deleteDB.js",
     "start": "npm i && cd client && npm i ",
-    "final": "npm run start",
+    "final": "cd client && npm run start",
     "react": "cd client && npm i"
   },
   "repository": {
