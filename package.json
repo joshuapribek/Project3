@@ -26,7 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "seed": "node ./scripts/seedDB.js ",
     "delete": "node ./scripts/deleteDB.js",
-    "start": "npm i && cd client && npm i && npm run start",
+    "start": "npm i & node server.js & cd client && npm i && npm run start",
     "react": "cd client && npm i"
   },
   "repository": {
