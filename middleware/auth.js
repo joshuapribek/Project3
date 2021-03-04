@@ -6,25 +6,27 @@ function auth(req, res, next) {
 
     // check token
 
-    if(!token) res.status(401).json({msg: 'no token, auth denied'});
-
-    try {
-        // verify token
-        
-        const decoded = jwt.verify(token, config.get('jwtSecret'));
+    if (! token) 
+        return res.status(401).json({msg: 'no token, auth denied'});
     
-        // add user from payload 
+
+
+    try { // verify token
+
+        const decoded = jwt.verify(token, 'secret');
+
+        // add user from payload
         req.user = decoded;
         next();
 
-    } catch(e) {
+    } catch (e) {
 
         res.status(400).json({msg: 'Token is not valid'})
 
 
     }
 
-    
-}
 
-module.exports = auth
+};
+
+module.exports = auth;

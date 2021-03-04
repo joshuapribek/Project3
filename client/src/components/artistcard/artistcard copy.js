@@ -23,7 +23,7 @@ function Artistcard(props) {
                 styles.cardstyle
         }>
 
-            <LazyLoadImage class="card-img-top" height="270px"
+            <LazyLoadImage class="card-img-top" variant="top" width="200px" height="300px"
                 placeholderSrc={Preload}
                 src={
                     props.url

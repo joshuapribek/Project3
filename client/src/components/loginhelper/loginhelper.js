@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import homelogo from "../../assets/record.png"
 
 
-export const Home = () => {
+export const LoginHelper = () => {
 
     var geolocation = function getLocation() {
         if (navigator.geolocation) {
