@@ -28,6 +28,6 @@ app.use('/api/users/', require('./routes/api/users'))
 app.use('/api/auth/', require('./routes/api/auth'))
 
 
-app.listen(3006, () => {
+app.listen(process.env.PORT || 3006, () => {
     console.log("App running on port 3006!");
 });
