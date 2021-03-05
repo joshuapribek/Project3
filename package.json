@@ -21,7 +21,7 @@
     "npm": "7.3.0"
   },
   "version": "1.0.0",
-  "homepage": "https://thawing-fjord-65808.herokuapp.com/",
+  "homepage": "https://arcane-cliffs-65645.herokuapp.com/",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
