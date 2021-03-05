@@ -41,7 +41,6 @@ class navbar extends Component {
             </NavItem>
             <Nav.Link className="text-black" href="/">Home</Nav.Link>
             <Nav.Link className="text-black" href="/Artistfind">Artistfind</Nav.Link>
-            <Nav.Link className="text-black" href="/Profile">Profile</Nav.Link>
 
             <Nav.Link className="text-black" href="/About">About</Nav.Link>
             <NavItem>
