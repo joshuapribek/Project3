@@ -2,6 +2,12 @@ const express = require('express');
 const path = require('path');
 const cluster = require('cluster');
 const numCPUs = require('os').cpus().length;
+const mongoose = require("mongoose");
+
+const app = express();
+
+app.use(express.json())
+app.use(express.urlencoded({extended: true}));
 
 const isDev = process.env.NODE_ENV !== 'production';
 const PORT = process.env.PORT || 5000;
@@ -21,6 +27,16 @@ if (!isDev && cluster.isMaster) {
 
 } else {
   const app = express();
+
+  mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/wanderlist", {
+    useNewUrlParser: true,
+    useCreateIndex: true,
+    useUnifiedTopology: true
+}).then(() => console.log('MongoDB Connected...')).catch(err => console.log(err));
+
+app.use('/api/artistfind/', require('../routes/api/artistfind'))
+app.use('/api/users/', require('../routes/api/users'))
+app.use('/api/auth/', require('../routes/api/auth'))
 
   // Priority serve any static files.
   app.use(express.static(path.resolve(__dirname, '../react-ui/build')));

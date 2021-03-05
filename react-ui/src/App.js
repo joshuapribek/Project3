@@ -1,69 +1,53 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+import NavBar from "./components/navbar/navbar";
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {Home} from "./components/pages/Home";
+import {About} from "./components/pages/About";
+import {Login} from "./components/pages/Login";
+import {Profile} from "./components/pages/Profile";
 
-function App() {
-  const [message, setMessage] = useState(null);
-  const [isFetching, setIsFetching] = useState(false);
-  const [url, setUrl] = useState('/api');
 
-  const fetchData = useCallback(() => {
-    fetch(url)
-      .then(response => {
-        if (!response.ok) {
-          throw new Error(`status ${response.status}`);
-        }
-        return response.json();
-      })
-      .then(json => {
-        setMessage(json.message);
-        setIsFetching(false);
-      }).catch(e => {
-        setMessage(`API call failed: ${e}`);
-        setIsFetching(false);
-      })
-  }, [url]);
+import Wanderlist from "./components/pages/Artistfind";
 
-  useEffect(() => {
-    setIsFetching(true);
-    fetchData();
-  }, [fetchData]);
 
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        { process.env.NODE_ENV === 'production' ?
-            <p>
-              This is a production build from create-react-app.
-            </p>
-          : <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-        }
-        <p>{'« '}<strong>
-          {isFetching
-            ? 'Fetching message from API'
-            : message}
-        </strong>{' »'}</p>
-        <p><a
-          className="App-link"
-          href="https://github.com/mars/heroku-cra-node"
-        >
-          React + Node deployment on Heroku
-        </a></p>
-        <p><a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a></p>
-      </header>
-    </div>
-  );
+import {Provider} from 'react-redux';
+import store from './store';
+import {loadUser} from './actions/authActions'
+// import { loadUser } from './flux/actions/authActions';
 
+
+class App extends Component {
+
+    componentDidMount() {
+        store.dispatch(loadUser());
+    }
+
+    render() {
+        return (<Provider store={store}>
+            <>
+                <Router>
+                    <NavBar/>
+                    <div className="pages">
+                        <Switch>
+                            <Route exact path="/"
+                                component={Home}/>
+                            <Route exact path="/about"
+                                component={About}/>
+                            <Route exact path="/Artistfind"
+                                component={Wanderlist}/>
+                            <Route exact path="/Profile"
+                                component={Profile}/>
+
+                            <Route path="*"
+                                component={Home}/>
+
+                        </Switch>
+                    </div>
+                </Router>
+            </>
+        </Provider>);
+    }
 }
+
 
 export default App;
