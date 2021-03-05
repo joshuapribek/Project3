@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://arcane-cliffs-65645.herokuapp.com/",
   "private": true,
-  "proxy": "http://localhost:3006",
+  "proxy": "http://localhost:5000",
   "main": "index.js",
   "engines": {
     "node": "15.5.1",

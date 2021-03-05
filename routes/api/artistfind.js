@@ -4,7 +4,9 @@ const auth = require('../../middleware/auth')
 
 const Artist = require('../../models/artist');
 
-router.get('/:lat/:lon', auth, (req, res) => {
+// add auth !!!//
+
+router.get('/:lat/:lon' , (req, res) => {
     const {lat, lon} = req.params
 
     Artist.aggregate([
