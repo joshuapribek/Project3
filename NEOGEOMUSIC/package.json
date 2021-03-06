@@ -1,0 +1,27 @@
+{
+  "name": "mvtebaysite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node delete && node init.js && node scrape.js && node head.js && node body.js",
+    "create": "node head.js && node body.js",
+    "scrape": "node delete && node init.js && node scrape.js && node writefoot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.5",
+    "csv-parse": "^4.15.1",
+    "csv-parser": "^3.0.0",
+    "nightmare": "^3.0.2",
+    "node-csv": "^0.1.2",
+    "replace-in-file": "^6.2.0",
+    "request": "^2.88.2",
+    "tachyons": "^4.12.0",
+    "util": "^0.12.3",
+    "vo": "^4.0.2"
+  }
+}

@@ -1,0 +1,1137 @@
+{
+    "artists": {
+      "href": "https://api.spotify.com/v1/search?query=Muse&type=artist&market=US&offset=5&limit=10",
+      "items": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4j3YTfoiuiaugTc2cV1eSy"
+          },
+          "followers": {
+            "href": null,
+            "total": 31
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/4j3YTfoiuiaugTc2cV1eSy",
+          "id": "4j3YTfoiuiaugTc2cV1eSy",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273d5101b1e72bb6d6611432f4a",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02d5101b1e72bb6d6611432f4a",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851d5101b1e72bb6d6611432f4a",
+              "width": 64
+            }
+          ],
+          "name": "KREATIV MUSE",
+          "popularity": 37,
+          "type": "artist",
+          "uri": "spotify:artist:4j3YTfoiuiaugTc2cV1eSy"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1PgZeUa7uRiBu1XU02hiBH"
+          },
+          "followers": {
+            "href": null,
+            "total": 130
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/1PgZeUa7uRiBu1XU02hiBH",
+          "id": "1PgZeUa7uRiBu1XU02hiBH",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b27345b862bc673e69699b1a3e63",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e0245b862bc673e69699b1a3e63",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d0000485145b862bc673e69699b1a3e63",
+              "width": 64
+            }
+          ],
+          "name": "The Muse Of Meditation",
+          "popularity": 36,
+          "type": "artist",
+          "uri": "spotify:artist:1PgZeUa7uRiBu1XU02hiBH"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/5xU5wRTlZHVRoo2OxPvqA4"
+          },
+          "followers": {
+            "href": null,
+            "total": 47088
+          },
+          "genres": [
+            "alternative pop",
+            "alternative rock",
+            "boston rock",
+            "britpop",
+            "chamber psych",
+            "dream pop",
+            "lilith",
+            "rhode island indie",
+            "riot grrrl",
+            "shoegaze"
+          ],
+          "href": "https://api.spotify.com/v1/artists/5xU5wRTlZHVRoo2OxPvqA4",
+          "id": "5xU5wRTlZHVRoo2OxPvqA4",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/7d30037763c4e16f671b71518a556e2944100191",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/523aeca7d02ba33ec03dd8837130b83e9c51a130",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/18e4a99e81dd48506eee8036feb5b1c27804f1c4",
+              "width": 160
+            }
+          ],
+          "name": "Throwing Muses",
+          "popularity": 41,
+          "type": "artist",
+          "uri": "spotify:artist:5xU5wRTlZHVRoo2OxPvqA4"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1I91gH26lvsju14Hy5h0Xx"
+          },
+          "followers": {
+            "href": null,
+            "total": 2719
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/1I91gH26lvsju14Hy5h0Xx",
+          "id": "1I91gH26lvsju14Hy5h0Xx",
+          "images": [
+            {
+              "height": 808,
+              "url": "https://i.scdn.co/image/6ebbe57ab9dd14c6d6b1f0112a125a4d79a73040",
+              "width": 1000
+            },
+            {
+              "height": 517,
+              "url": "https://i.scdn.co/image/e5ffe65d386530e1c50f27ea08eee7861c80ff3e",
+              "width": 640
+            },
+            {
+              "height": 162,
+              "url": "https://i.scdn.co/image/3cdddc660ce875d1e84ce41dc0df7b4e98188a26",
+              "width": 200
+            },
+            {
+              "height": 52,
+              "url": "https://i.scdn.co/image/cbea5d3d573de57cb4a4141d21235b48028d4d07",
+              "width": 64
+            }
+          ],
+          "name": "Musée Mécanique",
+          "popularity": 23,
+          "type": "artist",
+          "uri": "spotify:artist:1I91gH26lvsju14Hy5h0Xx"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4hy8rLVa6N3hAsYeD6Fxjh"
+          },
+          "followers": {
+            "href": null,
+            "total": 44
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/4hy8rLVa6N3hAsYeD6Fxjh",
+          "id": "4hy8rLVa6N3hAsYeD6Fxjh",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/e165455a375fe68947274ca96ce21a8b817d5e1d",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/a312764ca3d0f7879d47ded66aa157becc9b677d",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/efaaaf0b20e953f0189370bb0110ff2532755fec",
+              "width": 160
+            }
+          ],
+          "name": "Mwila Musefwe",
+          "popularity": 34,
+          "type": "artist",
+          "uri": "spotify:artist:4hy8rLVa6N3hAsYeD6Fxjh"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2YAihoY43W4csXJjfGtrsl"
+          },
+          "followers": {
+            "href": null,
+            "total": 335
+          },
+          "genres": [
+            "accordeon"
+          ],
+          "href": "https://api.spotify.com/v1/artists/2YAihoY43W4csXJjfGtrsl",
+          "id": "2YAihoY43W4csXJjfGtrsl",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273f9563425882314df3106f451",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02f9563425882314df3106f451",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851f9563425882314df3106f451",
+              "width": 64
+            }
+          ],
+          "name": "Musette",
+          "popularity": 23,
+          "type": "artist",
+          "uri": "spotify:artist:2YAihoY43W4csXJjfGtrsl"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/55tJwpPIz9BMrSLM45iEXX"
+          },
+          "followers": {
+            "href": null,
+            "total": 156479
+          },
+          "genres": [
+            "k-pop",
+            "k-pop girl group"
+          ],
+          "href": "https://api.spotify.com/v1/artists/55tJwpPIz9BMrSLM45iEXX",
+          "id": "55tJwpPIz9BMrSLM45iEXX",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/ab67616d0000b273c1d75089640b4cd957b21a16",
+              "width": 640
+            },
+            {
+              "height": 300,
+              "url": "https://i.scdn.co/image/ab67616d00001e02c1d75089640b4cd957b21a16",
+              "width": 300
+            },
+            {
+              "height": 64,
+              "url": "https://i.scdn.co/image/ab67616d00004851c1d75089640b4cd957b21a16",
+              "width": 64
+            }
+          ],
+          "name": "9MUSES",
+          "popularity": 45,
+          "type": "artist",
+          "uri": "spotify:artist:55tJwpPIz9BMrSLM45iEXX"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/41h543BszPTZEEfQRHYc8K"
+          },
+          "followers": {
+            "href": null,
+            "total": 8906
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/41h543BszPTZEEfQRHYc8K",
+          "id": "41h543BszPTZEEfQRHYc8K",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/aa297c26dafbc67b4afbf7904a67e6796396ffef",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/fa981536e4cd0086df3e0148a6bf211f40b14319",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/acee802a6b43b03bf14a395d8cb0b8de68463e4d",
+              "width": 160
+            }
+          ],
+          "name": "David Wax Museum",
+          "popularity": 36,
+          "type": "artist",
+          "uri": "spotify:artist:41h543BszPTZEEfQRHYc8K"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/4KAJjSzo6QxzN69dAfJ9Sk"
+          },
+          "followers": {
+            "href": null,
+            "total": 58
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/4KAJjSzo6QxzN69dAfJ9Sk",
+          "id": "4KAJjSzo6QxzN69dAfJ9Sk",
+          "images": [
+            {
+              "height": 640,
+              "url": "https://i.scdn.co/image/057460abf7c2c49079b4cd9b8376e9cd7a5a7f56",
+              "width": 640
+            },
+            {
+              "height": 320,
+              "url": "https://i.scdn.co/image/57e219dd04213ed1df287c89f5684d61b0ec5a4f",
+              "width": 320
+            },
+            {
+              "height": 160,
+              "url": "https://i.scdn.co/image/772c9a1b530534f4e7e2997284abf6d1d5fb28fb",
+              "width": 160
+            }
+          ],
+          "name": "Museek",
+          "popularity": 20,
+          "type": "artist",
+          "uri": "spotify:artist:4KAJjSzo6QxzN69dAfJ9Sk"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1BPL8qTOxDB0dqFMWACicT"
+          },
+          "followers": {
+            "href": null,
+            "total": 47
+          },
+          "genres": [],
+          "href": "https://api.spotify.com/v1/artists/1BPL8qTOxDB0dqFMWACicT",
+          "id": "1BPL8qTOxDB0dqFMWACicT",
+          "images": [],
+          "name": "MuseofDiscord",
+          "popularity": 14,
+          "type": "artist",
+          "uri": "spotify:artist:1BPL8qTOxDB0dqFMWACicT"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.spotify.com/v1/search?query=Muse&type=artist&market=US&offset=15&limit=10",
+      "offset": 5,
+      "previous": "https://api.spotify.com/v1/search?query=Muse&type=artist&market=US&offset=0&limit=10",
+      "total": 952
+    },
+    "tracks": {
+      "href": "https://api.spotify.com/v1/search?query=Muse&type=track&market=US&offset=5&limit=10",
+      "items": [
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7lqaPghwYv2mE9baz5XQmL"
+                },
+                "href": "https://api.spotify.com/v1/artists/7lqaPghwYv2mE9baz5XQmL",
+                "id": "7lqaPghwYv2mE9baz5XQmL",
+                "name": "Tally Hall",
+                "type": "artist",
+                "uri": "spotify:artist:7lqaPghwYv2mE9baz5XQmL"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2TN3NIEBmAOGWmvP96DFs5"
+            },
+            "href": "https://api.spotify.com/v1/albums/2TN3NIEBmAOGWmvP96DFs5",
+            "id": "2TN3NIEBmAOGWmvP96DFs5",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273b9ccb466665c2ac10dc0d628",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02b9ccb466665c2ac10dc0d628",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851b9ccb466665c2ac10dc0d628",
+                "width": 64
+              }
+            ],
+            "name": "Marvin's Marvelous Mechanical Museum",
+            "release_date": "2005-10-24",
+            "release_date_precision": "day",
+            "total_tracks": 17,
+            "type": "album",
+            "uri": "spotify:album:2TN3NIEBmAOGWmvP96DFs5"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7lqaPghwYv2mE9baz5XQmL"
+              },
+              "href": "https://api.spotify.com/v1/artists/7lqaPghwYv2mE9baz5XQmL",
+              "id": "7lqaPghwYv2mE9baz5XQmL",
+              "name": "Tally Hall",
+              "type": "artist",
+              "uri": "spotify:artist:7lqaPghwYv2mE9baz5XQmL"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 160613,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "TCAAY1150083"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0HBrtXJohbIW4IhPZ50GmH"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0HBrtXJohbIW4IhPZ50GmH",
+          "id": "0HBrtXJohbIW4IhPZ50GmH",
+          "is_local": false,
+          "is_playable": true,
+          "name": "The Bidding",
+          "popularity": 70,
+          "preview_url": "https://p.scdn.co/mp3-preview/65159b3fd4ae75641851d2b94c5497a83e19378d?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 5,
+          "type": "track",
+          "uri": "spotify:track:0HBrtXJohbIW4IhPZ50GmH"
+        },
+        {
+          "album": {
+            "album_type": "single",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/0iqgjl0OG3z53PZVIB7ZyD"
+                },
+                "href": "https://api.spotify.com/v1/artists/0iqgjl0OG3z53PZVIB7ZyD",
+                "id": "0iqgjl0OG3z53PZVIB7ZyD",
+                "name": "Víkingur Ólafsson",
+                "type": "artist",
+                "uri": "spotify:artist:0iqgjl0OG3z53PZVIB7ZyD"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/4lKjOi9WFEBvafMP8IXToY"
+            },
+            "href": "https://api.spotify.com/v1/albums/4lKjOi9WFEBvafMP8IXToY",
+            "id": "4lKjOi9WFEBvafMP8IXToY",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e22720f6363a8f73ea0bd0c0",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e22720f6363a8f73ea0bd0c0",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e22720f6363a8f73ea0bd0c0",
+                "width": 64
+              }
+            ],
+            "name": "Reflections Pt. 3 / RWKS",
+            "release_date": "2021-02-19",
+            "release_date_precision": "day",
+            "total_tracks": 4,
+            "type": "album",
+            "uri": "spotify:album:4lKjOi9WFEBvafMP8IXToY"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/0iqgjl0OG3z53PZVIB7ZyD"
+              },
+              "href": "https://api.spotify.com/v1/artists/0iqgjl0OG3z53PZVIB7ZyD",
+              "id": "0iqgjl0OG3z53PZVIB7ZyD",
+              "name": "Víkingur Ólafsson",
+              "type": "artist",
+              "uri": "spotify:artist:0iqgjl0OG3z53PZVIB7ZyD"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 213737,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "DEN962003120"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/2X32IY314Mt7NRi2taldLX"
+          },
+          "href": "https://api.spotify.com/v1/tracks/2X32IY314Mt7NRi2taldLX",
+          "id": "2X32IY314Mt7NRi2taldLX",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Muse d'eau",
+          "popularity": 51,
+          "preview_url": null,
+          "track_number": 1,
+          "type": "track",
+          "uri": "spotify:track:2X32IY314Mt7NRi2taldLX"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+                },
+                "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+                "id": "12Chz98pHFMPJEknJQMWvI",
+                "name": "Muse",
+                "type": "artist",
+                "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/3KuXEGcqLcnEYWnn3OEGy0"
+            },
+            "href": "https://api.spotify.com/v1/albums/3KuXEGcqLcnEYWnn3OEGy0",
+            "id": "3KuXEGcqLcnEYWnn3OEGy0",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273fc192c54d1823a04ffb6c8c9",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02fc192c54d1823a04ffb6c8c9",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851fc192c54d1823a04ffb6c8c9",
+                "width": 64
+              }
+            ],
+            "name": "The 2nd Law",
+            "release_date": "2012-09-24",
+            "release_date_precision": "day",
+            "total_tracks": 13,
+            "type": "album",
+            "uri": "spotify:album:3KuXEGcqLcnEYWnn3OEGy0"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+              },
+              "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+              "id": "12Chz98pHFMPJEknJQMWvI",
+              "name": "Muse",
+              "type": "artist",
+              "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 281040,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBAHT1200390"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/0c4IEciLCDdXEhhKxj4ThA"
+          },
+          "href": "https://api.spotify.com/v1/tracks/0c4IEciLCDdXEhhKxj4ThA",
+          "id": "0c4IEciLCDdXEhhKxj4ThA",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Madness",
+          "popularity": 67,
+          "preview_url": "https://p.scdn.co/mp3-preview/2bb1362f5a9c6264811e5904ee986b2edced38a3?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 2,
+          "type": "track",
+          "uri": "spotify:track:0c4IEciLCDdXEhhKxj4ThA"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+                },
+                "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+                "id": "12Chz98pHFMPJEknJQMWvI",
+                "name": "Muse",
+                "type": "artist",
+                "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs"
+            },
+            "href": "https://api.spotify.com/v1/albums/0lw68yx3MhKflWFqCsGkIs",
+            "id": "0lw68yx3MhKflWFqCsGkIs",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485128933b808bfb4cbbd0385400",
+                "width": 64
+              }
+            ],
+            "name": "Black Holes and Revelations",
+            "release_date": "2006-06-19",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:0lw68yx3MhKflWFqCsGkIs"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+              },
+              "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+              "id": "12Chz98pHFMPJEknJQMWvI",
+              "name": "Muse",
+              "type": "artist",
+              "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 240213,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBAHT0500592"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/3skn2lauGk7Dx6bVIt5DVj"
+          },
+          "href": "https://api.spotify.com/v1/tracks/3skn2lauGk7Dx6bVIt5DVj",
+          "id": "3skn2lauGk7Dx6bVIt5DVj",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Starlight",
+          "popularity": 71,
+          "preview_url": "https://p.scdn.co/mp3-preview/f7a1b8a270f310e43ced2720c9af5f29f6476b79?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 2,
+          "type": "track",
+          "uri": "spotify:track:3skn2lauGk7Dx6bVIt5DVj"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/7lqaPghwYv2mE9baz5XQmL"
+                },
+                "href": "https://api.spotify.com/v1/artists/7lqaPghwYv2mE9baz5XQmL",
+                "id": "7lqaPghwYv2mE9baz5XQmL",
+                "name": "Tally Hall",
+                "type": "artist",
+                "uri": "spotify:artist:7lqaPghwYv2mE9baz5XQmL"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/2TN3NIEBmAOGWmvP96DFs5"
+            },
+            "href": "https://api.spotify.com/v1/albums/2TN3NIEBmAOGWmvP96DFs5",
+            "id": "2TN3NIEBmAOGWmvP96DFs5",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273b9ccb466665c2ac10dc0d628",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02b9ccb466665c2ac10dc0d628",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851b9ccb466665c2ac10dc0d628",
+                "width": 64
+              }
+            ],
+            "name": "Marvin's Marvelous Mechanical Museum",
+            "release_date": "2005-10-24",
+            "release_date_precision": "day",
+            "total_tracks": 17,
+            "type": "album",
+            "uri": "spotify:album:2TN3NIEBmAOGWmvP96DFs5"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/7lqaPghwYv2mE9baz5XQmL"
+              },
+              "href": "https://api.spotify.com/v1/artists/7lqaPghwYv2mE9baz5XQmL",
+              "id": "7lqaPghwYv2mE9baz5XQmL",
+              "name": "Tally Hall",
+              "type": "artist",
+              "uri": "spotify:artist:7lqaPghwYv2mE9baz5XQmL"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 222106,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "TCAAY1158676"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/3vFZheR74pxUkzxqhXTZ2X"
+          },
+          "href": "https://api.spotify.com/v1/tracks/3vFZheR74pxUkzxqhXTZ2X",
+          "id": "3vFZheR74pxUkzxqhXTZ2X",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Ruler of Everything",
+          "popularity": 63,
+          "preview_url": "https://p.scdn.co/mp3-preview/dd13c4edfd8e300dc6b3f351a7390dd17d4b2f77?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 14,
+          "type": "track",
+          "uri": "spotify:track:3vFZheR74pxUkzxqhXTZ2X"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+                },
+                "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+                "id": "12Chz98pHFMPJEknJQMWvI",
+                "name": "Muse",
+                "type": "artist",
+                "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0lw68yx3MhKflWFqCsGkIs"
+            },
+            "href": "https://api.spotify.com/v1/albums/0lw68yx3MhKflWFqCsGkIs",
+            "id": "0lw68yx3MhKflWFqCsGkIs",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b27328933b808bfb4cbbd0385400",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e0228933b808bfb4cbbd0385400",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d0000485128933b808bfb4cbbd0385400",
+                "width": 64
+              }
+            ],
+            "name": "Black Holes and Revelations",
+            "release_date": "2006-06-19",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:0lw68yx3MhKflWFqCsGkIs"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+              },
+              "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+              "id": "12Chz98pHFMPJEknJQMWvI",
+              "name": "Muse",
+              "type": "artist",
+              "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 366213,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBAHT0500600"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/7ouMYWpwJ422jRcDASZB7P"
+          },
+          "href": "https://api.spotify.com/v1/tracks/7ouMYWpwJ422jRcDASZB7P",
+          "id": "7ouMYWpwJ422jRcDASZB7P",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Knights of Cydonia",
+          "popularity": 67,
+          "preview_url": "https://p.scdn.co/mp3-preview/d7624ec5f93b6d92c1836a95c40ecce463584f6e?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 11,
+          "type": "track",
+          "uri": "spotify:track:7ouMYWpwJ422jRcDASZB7P"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+                },
+                "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+                "id": "5aIqB5nVVvmFsvSdExz408",
+                "name": "Johann Sebastian Bach",
+                "type": "artist",
+                "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/1ELGyJjsMYJN1AKR1tBRWS"
+            },
+            "href": "https://api.spotify.com/v1/albums/1ELGyJjsMYJN1AKR1tBRWS",
+            "id": "1ELGyJjsMYJN1AKR1tBRWS",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2731d2a04b3dee3eb1b9decb8f1",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e021d2a04b3dee3eb1b9decb8f1",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048511d2a04b3dee3eb1b9decb8f1",
+                "width": 64
+              }
+            ],
+            "name": "Bach: Baroque Legends",
+            "release_date": "2021-02-22",
+            "release_date_precision": "day",
+            "total_tracks": 244,
+            "type": "album",
+            "uri": "spotify:album:1ELGyJjsMYJN1AKR1tBRWS"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+              },
+              "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+              "id": "5aIqB5nVVvmFsvSdExz408",
+              "name": "Johann Sebastian Bach",
+              "type": "artist",
+              "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4daNEEliCdZMA7umPOd0Bt"
+              },
+              "href": "https://api.spotify.com/v1/artists/4daNEEliCdZMA7umPOd0Bt",
+              "id": "4daNEEliCdZMA7umPOd0Bt",
+              "name": "Alexandre Lagoya",
+              "type": "artist",
+              "uri": "spotify:artist:4daNEEliCdZMA7umPOd0Bt"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 71053,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "FRZ037102230"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/4wbQ6i6Ajy3uzlC4exyRN5"
+          },
+          "href": "https://api.spotify.com/v1/tracks/4wbQ6i6Ajy3uzlC4exyRN5",
+          "id": "4wbQ6i6Ajy3uzlC4exyRN5",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Notenbüchlein für Anna Magdalena Bach (Arr. for guitar A. Lagoya): 26. Musette in D major, Anh.126",
+          "popularity": 19,
+          "preview_url": null,
+          "track_number": 31,
+          "type": "track",
+          "uri": "spotify:track:4wbQ6i6Ajy3uzlC4exyRN5"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+                },
+                "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+                "id": "12Chz98pHFMPJEknJQMWvI",
+                "name": "Muse",
+                "type": "artist",
+                "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0HcHPBu9aaF1MxOiZmUQTl"
+            },
+            "href": "https://api.spotify.com/v1/albums/0HcHPBu9aaF1MxOiZmUQTl",
+            "id": "0HcHPBu9aaF1MxOiZmUQTl",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2738cb690f962092fd44bbe2bf4",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e028cb690f962092fd44bbe2bf4",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048518cb690f962092fd44bbe2bf4",
+                "width": 64
+              }
+            ],
+            "name": "Absolution",
+            "release_date": "2004-03-23",
+            "release_date_precision": "day",
+            "total_tracks": 15,
+            "type": "album",
+            "uri": "spotify:album:0HcHPBu9aaF1MxOiZmUQTl"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"
+              },
+              "href": "https://api.spotify.com/v1/artists/12Chz98pHFMPJEknJQMWvI",
+              "id": "12Chz98pHFMPJEknJQMWvI",
+              "name": "Muse",
+              "type": "artist",
+              "uri": "spotify:artist:12Chz98pHFMPJEknJQMWvI"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 227440,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "GBCVT0300083"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/7xyYsOvq5Ec3P4fr6mM9fD"
+          },
+          "href": "https://api.spotify.com/v1/tracks/7xyYsOvq5Ec3P4fr6mM9fD",
+          "id": "7xyYsOvq5Ec3P4fr6mM9fD",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Hysteria",
+          "popularity": 69,
+          "preview_url": "https://p.scdn.co/mp3-preview/ff29ded2c1aa87ed04cb15ea9b1819dc4db95ad7?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 8,
+          "type": "track",
+          "uri": "spotify:track:7xyYsOvq5Ec3P4fr6mM9fD"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+                },
+                "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+                "id": "5aIqB5nVVvmFsvSdExz408",
+                "name": "Johann Sebastian Bach",
+                "type": "artist",
+                "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/0Bugn8i1BoKpM4CGy408sK"
+            },
+            "href": "https://api.spotify.com/v1/albums/0Bugn8i1BoKpM4CGy408sK",
+            "id": "0Bugn8i1BoKpM4CGy408sK",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b273e8f5fec6e32996591dd9a4dd",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e02e8f5fec6e32996591dd9a4dd",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d00004851e8f5fec6e32996591dd9a4dd",
+                "width": 64
+              }
+            ],
+            "name": "I Love Bach",
+            "release_date": "2021-02-14",
+            "release_date_precision": "day",
+            "total_tracks": 200,
+            "type": "album",
+            "uri": "spotify:album:0Bugn8i1BoKpM4CGy408sK"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/5aIqB5nVVvmFsvSdExz408"
+              },
+              "href": "https://api.spotify.com/v1/artists/5aIqB5nVVvmFsvSdExz408",
+              "id": "5aIqB5nVVvmFsvSdExz408",
+              "name": "Johann Sebastian Bach",
+              "type": "artist",
+              "uri": "spotify:artist:5aIqB5nVVvmFsvSdExz408"
+            },
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/4daNEEliCdZMA7umPOd0Bt"
+              },
+              "href": "https://api.spotify.com/v1/artists/4daNEEliCdZMA7umPOd0Bt",
+              "id": "4daNEEliCdZMA7umPOd0Bt",
+              "name": "Alexandre Lagoya",
+              "type": "artist",
+              "uri": "spotify:artist:4daNEEliCdZMA7umPOd0Bt"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 71053,
+          "explicit": false,
+          "external_ids": {
+            "isrc": "FRZ037102230"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/6vtlXKF7AWMyDQd0Ti6dq1"
+          },
+          "href": "https://api.spotify.com/v1/tracks/6vtlXKF7AWMyDQd0Ti6dq1",
+          "id": "6vtlXKF7AWMyDQd0Ti6dq1",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Notenbüchlein für Anna Magdalena Bach (Arr. for guitar A. Lagoya): 26. Musette in D major, Anh.126",
+          "popularity": 17,
+          "preview_url": null,
+          "track_number": 59,
+          "type": "track",
+          "uri": "spotify:track:6vtlXKF7AWMyDQd0Ti6dq1"
+        },
+        {
+          "album": {
+            "album_type": "album",
+            "artists": [
+              {
+                "external_urls": {
+                  "spotify": "https://open.spotify.com/artist/2HPaUgqeutzr3jx5a9WyDV"
+                },
+                "href": "https://api.spotify.com/v1/artists/2HPaUgqeutzr3jx5a9WyDV",
+                "id": "2HPaUgqeutzr3jx5a9WyDV",
+                "name": "PARTYNEXTDOOR",
+                "type": "artist",
+                "uri": "spotify:artist:2HPaUgqeutzr3jx5a9WyDV"
+              }
+            ],
+            "external_urls": {
+              "spotify": "https://open.spotify.com/album/6s2isojT7rGZUgJyymjjKU"
+            },
+            "href": "https://api.spotify.com/v1/albums/6s2isojT7rGZUgJyymjjKU",
+            "id": "6s2isojT7rGZUgJyymjjKU",
+            "images": [
+              {
+                "height": 640,
+                "url": "https://i.scdn.co/image/ab67616d0000b2734abe8b5d722c2d2231625a12",
+                "width": 640
+              },
+              {
+                "height": 300,
+                "url": "https://i.scdn.co/image/ab67616d00001e024abe8b5d722c2d2231625a12",
+                "width": 300
+              },
+              {
+                "height": 64,
+                "url": "https://i.scdn.co/image/ab67616d000048514abe8b5d722c2d2231625a12",
+                "width": 64
+              }
+            ],
+            "name": "PARTYNEXTDOOR TWO",
+            "release_date": "2014-07-29",
+            "release_date_precision": "day",
+            "total_tracks": 12,
+            "type": "album",
+            "uri": "spotify:album:6s2isojT7rGZUgJyymjjKU"
+          },
+          "artists": [
+            {
+              "external_urls": {
+                "spotify": "https://open.spotify.com/artist/2HPaUgqeutzr3jx5a9WyDV"
+              },
+              "href": "https://api.spotify.com/v1/artists/2HPaUgqeutzr3jx5a9WyDV",
+              "id": "2HPaUgqeutzr3jx5a9WyDV",
+              "name": "PARTYNEXTDOOR",
+              "type": "artist",
+              "uri": "spotify:artist:2HPaUgqeutzr3jx5a9WyDV"
+            }
+          ],
+          "disc_number": 1,
+          "duration_ms": 203324,
+          "explicit": true,
+          "external_ids": {
+            "isrc": "USWB11401870"
+          },
+          "external_urls": {
+            "spotify": "https://open.spotify.com/track/41ipOYFGT2MW4dvOPkoK1f"
+          },
+          "href": "https://api.spotify.com/v1/tracks/41ipOYFGT2MW4dvOPkoK1f",
+          "id": "41ipOYFGT2MW4dvOPkoK1f",
+          "is_local": false,
+          "is_playable": true,
+          "name": "Muse",
+          "popularity": 42,
+          "preview_url": "https://p.scdn.co/mp3-preview/d03f4da489977e44fe92e95f771b2ace9607fbcc?cid=774b29d4f13844c495f206cafdad9c86",
+          "track_number": 12,
+          "type": "track",
+          "uri": "spotify:track:41ipOYFGT2MW4dvOPkoK1f"
+        }
+      ],
+      "limit": 10,
+      "next": "https://api.spotify.com/v1/search?query=Muse&type=track&market=US&offset=15&limit=10",
+      "offset": 5,
+      "previous": "https://api.spotify.com/v1/search?query=Muse&type=track&market=US&offset=0&limit=10",
+      "total": 63225
+    }
+  }
